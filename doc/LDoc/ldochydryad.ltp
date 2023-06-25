@@ -1,0 +1,8 @@
+> if ldoc.no_summary and module and not ldoc.one then -- bang out the functions on the side
+> for kind, items in module.kinds() do
+$(kind)
+
+> for item in items() do
+    $(item.name) $(display_name(item))
+> end
+

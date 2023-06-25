@@ -1,0 +1,20 @@
+---CMDTYPE
+
+---
+---Fields
+---@param ICON number
+---@param ICON_MODE number
+---@param ICON_MAP number
+---@param ICON_AREA number
+---@param ICON_UNIT number
+---@param ICON_UNIT_OR_MAP number
+---@param ICON_FRONT number
+---@param COMBO_BOX number
+---@param ICON_UNIT_OR_AREA number
+---@param ICON_UNIT_FEATURE_OR_AREA number
+---@param ICON_BUILDING number
+---@param ICON_UNIT_OR_RECTANGLE number
+---@param NUMBER number
+---@param CUSTOM number
+---@param NEXT number
+---@param PREV number

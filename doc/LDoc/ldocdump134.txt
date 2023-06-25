@@ -1,0 +1,3359 @@
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    posY = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    posZ = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    projectileID = {
+                      type = "number"
+                    },
+                    posX = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectilePosition"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectilePosition",
+                args = [=[(projectileID[, posX=0[, posY=0[, posZ=0]]])]=],
+                summary = "",
+                lineno = 4681,
+                params = {
+                  "projectileID",
+                  "posX",
+                  "posY",
+                  "posZ",
+                  map = {
+                    posY = "",
+                    posZ = "",
+                    projectileID = "",
+                    posX = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    velX = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    velY = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    projectileID = {
+                      type = "number"
+                    },
+                    velZ = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectileVelocity"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectileVelocity",
+                args = [=[(projectileID[, velX=0[, velY=0[, velZ=0]]])]=],
+                summary = "",
+                lineno = 4704,
+                params = {
+                  "projectileID",
+                  "velX",
+                  "velY",
+                  "velZ",
+                  map = {
+                    velX = "",
+                    velY = "",
+                    projectileID = "",
+                    velZ = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    projectileID = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectileCollision"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectileCollision",
+                args = "(projectileID)",
+                summary = "",
+                lineno = 4714,
+                params = {
+                  "projectileID",
+                  map = {
+                    projectileID = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ targetTypeStr can be one of: 
+     'u' - unit
+     'f' - feature
+     'p' - projectile
+  while targetTypeInt is one of:
+     string.byte('g') := GROUND
+     string.byte('u') := UNIT
+     string.byte('f') := FEATURE
+     string.byte('p') := PROJECTILE
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "validTarget",
+                      mods = {
+                        type = "?nil|bool"
+                      },
+                      type = "?nil|bool"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  "validTarget"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    arg2 = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    posZ = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    projectileID = {
+                      type = "number"
+                    },
+                    arg1 = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|bool"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectileTarget"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectileTarget",
+                args = [=[(projectileID[, arg1=0[, arg2=0[, posZ=0]]])]=],
+                summary = "",
+                lineno = 4744,
+                params = {
+                  "projectileID",
+                  "arg1",
+                  "arg2",
+                  "posZ",
+                  map = {
+                    arg2 = " targetType or posY",
+                    posZ = "",
+                    projectileID = "",
+                    arg1 = " targetID or posX"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    projectileID = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectileIsIntercepted"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectileIsIntercepted",
+                args = "(projectileID)",
+                summary = "",
+                lineno = 4819,
+                params = {
+                  "projectileID",
+                  map = {
+                    projectileID = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "string"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponNum = {
+                      type = "number"
+                    },
+                    key = {
+                      type = "string"
+                    },
+                    value = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectileDamages"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectileDamages",
+                args = "(unitID, weaponNum, key, value)",
+                summary = "",
+                lineno = 4842,
+                params = {
+                  "unitID",
+                  "weaponNum",
+                  "key",
+                  "value",
+                  map = {
+                    unitID = "",
+                    weaponNum = "",
+                    key = "",
+                    value = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    projectileID = {
+                      type = "number"
+                    },
+                    ignore = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectileIgnoreTrackingError"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectileIgnoreTrackingError",
+                args = "(projectileID, ignore)",
+                summary = "",
+                lineno = 4877,
+                params = {
+                  "projectileID",
+                  "ignore",
+                  map = {
+                    projectileID = "",
+                    ignore = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    },
+                    projectileID = {
+                      type = "number"
+                    },
+                    grav = {
+                      opt = "0",
+                      optchain = "0",
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetProjectileGravity"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetProjectileGravity",
+                args = "(projectileID[, grav=0])",
+                summary = "",
+                lineno = 4907,
+                params = {
+                  "projectileID",
+                  "grav",
+                  map = {
+                    projectileID = "",
+                    grav = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Projectiles",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    spinVectorZ = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    spinSpeed = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    spinVectorX = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    spinAngle = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    spinVectorY = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    projectileID = {
+                      type = "number"
+                    },
+                    explosionFlags = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetPieceProjectileParams"
+                },
+                kind = "projectiles ",
+                name = "Spring.SetPieceProjectileParams",
+                args = [=[(projectileID[, explosionFlags[, spinAngle[, spinSpeed[, spinVectorX[, spinVectorY[, spinVectorZ]]]]]])]=],
+                summary = "",
+                lineno = 4935,
+                params = {
+                  "projectileID",
+                  "explosionFlags",
+                  "spinAngle",
+                  "spinSpeed",
+                  "spinVectorX",
+                  "spinVectorY",
+                  "spinVectorZ",
+                  map = {
+                    spinVectorZ = "",
+                    spinSpeed = "",
+                    spinVectorX = "",
+                    spinAngle = "",
+                    spinVectorY = "",
+                    projectileID = "",
+                    explosionFlags = ""
+                  }
+                }
+              },
+              {
+                names_hierarchy = {
+                  "giveorder"
+                },
+                type = "section",
+                description = [[
+
+ Options can also be a bitmask; e.g. 0 instead of an empty table (can avoid performance hit on table creation)
+ See `Constants.CMD` for relevant constants.]],
+                tags = {
+                },
+                modifiers = {
+                },
+                display_name = "Give Order",
+                summary = "",
+                name = "giveorder",
+                file = <cycle>,
+                lineno = 5003,
+                inferred = true
+              },
+              {
+                description = "",
+                parameter = "field",
+                section = "Give Order",
+                inferred = true,
+                names_hierarchy = {
+                  "cmdOpts"
+                },
+                type = "table",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  ["return"] = {
+                  },
+                  field = {
+                    {
+                      type = "bool"
+                    },
+                    {
+                      type = "bool"
+                    },
+                    {
+                      type = "bool"
+                    },
+                    {
+                      type = "bool"
+                    },
+                    alt = {
+                      type = "bool"
+                    },
+                    right = {
+                      type = "bool"
+                    },
+                    shift = {
+                      type = "bool"
+                    },
+                    ctrl = {
+                      type = "bool"
+                    }
+                  },
+                  param = {
+                    {
+                      type = "bool"
+                    },
+                    {
+                      type = "bool"
+                    },
+                    {
+                      type = "bool"
+                    },
+                    {
+                      type = "bool"
+                    },
+                    alt = {
+                      type = "bool"
+                    },
+                    right = {
+                      type = "bool"
+                    },
+                    shift = {
+                      type = "bool"
+                    },
+                    ctrl = {
+                      type = "bool"
+                    }
+                  }
+                },
+                kind = "give order ",
+                name = "cmdOpts",
+                args = "(right, alt, ctrl, shift)",
+                summary = "Command Options params",
+                lineno = 5015,
+                params = {
+                  "right",
+                  "alt",
+                  "ctrl",
+                  "shift",
+                  map = {
+                    alt = " Alt key pressed",
+                    right = " Right mouse key pressed",
+                    shift = " Shift key pressed",
+                    ctrl = " Ctrl key pressed"
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ Used when assigning multiple commands at once
+]],
+                parameter = "field",
+                section = "Give Order",
+                inferred = true,
+                names_hierarchy = {
+                  "cmdSpec"
+                },
+                type = "table",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  ["return"] = {
+                  },
+                  field = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{number,...}"
+                    },
+                    {
+                      type = "cmdOpts"
+                    },
+                    options = {
+                      type = "cmdOpts"
+                    },
+                    cmdID = {
+                      type = "number"
+                    },
+                    params = {
+                      type = "{number,...}"
+                    }
+                  },
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{number,...}"
+                    },
+                    {
+                      type = "cmdOpts"
+                    },
+                    options = {
+                      type = "cmdOpts"
+                    },
+                    cmdID = {
+                      type = "number"
+                    },
+                    params = {
+                      type = "{number,...}"
+                    }
+                  }
+                },
+                kind = "give order ",
+                name = "cmdSpec",
+                args = "(cmdID, params, options)",
+                summary = "Command spec",
+                lineno = 5023,
+                params = {
+                  "cmdID",
+                  "params",
+                  "options",
+                  map = {
+                    options = "",
+                    cmdID = "",
+                    params = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Give Order",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "UnitFinishCommand"
+                },
+                kind = "give order ",
+                name = "Spring.UnitFinishCommand",
+                args = "(unitID)",
+                summary = "",
+                lineno = 5024,
+                params = {
+                  "unitID",
+                  map = {
+                    unitID = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "unitOrdered",
+                      mods = {
+                        type = "bool"
+                      },
+                      type = "bool"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Give Order",
+                inferred = true,
+                ret = {
+                  "unitOrdered"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{number,...}"
+                    },
+                    {
+                      type = "cmdOpts"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    cmdOpts = {
+                      type = "cmdOpts"
+                    },
+                    cmdID = {
+                      type = "number"
+                    },
+                    params = {
+                      type = "{number,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "bool"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "GiveOrderToUnit"
+                },
+                kind = "give order ",
+                name = "Spring.GiveOrderToUnit",
+                args = "(unitID, cmdID, params, cmdOpts)",
+                summary = "",
+                lineno = 5047,
+                params = {
+                  "unitID",
+                  "cmdID",
+                  "params",
+                  "cmdOpts",
+                  map = {
+                    unitID = "",
+                    cmdOpts = "",
+                    cmdID = "",
+                    params = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "unitsOrdered",
+                      mods = {
+                        type = "number"
+                      },
+                      type = "number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Give Order",
+                inferred = true,
+                ret = {
+                  "unitsOrdered"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "{[number]=table,...}"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{number,...}"
+                    },
+                    {
+                      type = "cmdOpts"
+                    },
+                    cmdOpts = {
+                      type = "cmdOpts"
+                    },
+                    unitMap = {
+                      type = "{[number]=table,...}"
+                    },
+                    cmdID = {
+                      type = "number"
+                    },
+                    params = {
+                      type = "{number,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "GiveOrderToUnitMap"
+                },
+                kind = "give order ",
+                name = "Spring.GiveOrderToUnitMap",
+                args = "(unitMap, cmdID, params, cmdOpts)",
+                summary = "",
+                lineno = 5083,
+                params = {
+                  "unitMap",
+                  "cmdID",
+                  "params",
+                  "cmdOpts",
+                  map = {
+                    cmdOpts = "",
+                    unitMap = " table with unitIDs as keys",
+                    cmdID = "",
+                    params = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "unitsOrdered",
+                      mods = {
+                        type = "number"
+                      },
+                      type = "number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Give Order",
+                inferred = true,
+                ret = {
+                  "unitsOrdered"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "{number,...}"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{number,...}"
+                    },
+                    {
+                      type = "cmdOpts"
+                    },
+                    cmdOpts = {
+                      type = "cmdOpts"
+                    },
+                    unitIDs = {
+                      type = "{number,...}"
+                    },
+                    cmdID = {
+                      type = "number"
+                    },
+                    params = {
+                      type = "{number,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "GiveOrderToUnitArray"
+                },
+                kind = "give order ",
+                name = "Spring.GiveOrderToUnitArray",
+                args = "(unitIDs, cmdID, params, cmdOpts)",
+                summary = "",
+                lineno = 5126,
+                params = {
+                  "unitIDs",
+                  "cmdID",
+                  "params",
+                  "cmdOpts",
+                  map = {
+                    cmdOpts = "",
+                    unitIDs = "",
+                    cmdID = "",
+                    params = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "ordersGiven",
+                      mods = {
+                        type = "bool"
+                      },
+                      type = "bool"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Give Order",
+                inferred = true,
+                ret = {
+                  "ordersGiven"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{cmdSpec,...}"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    cmdArray = {
+                      type = "{cmdSpec,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "bool"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "GiveOrderArrayToUnit"
+                },
+                kind = "give order ",
+                name = "Spring.GiveOrderArrayToUnit",
+                args = "(unitID, cmdArray)",
+                summary = "",
+                lineno = 5169,
+                params = {
+                  "unitID",
+                  "cmdArray",
+                  map = {
+                    unitID = "",
+                    cmdArray = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "unitsOrdered",
+                      mods = {
+                        type = "number"
+                      },
+                      type = "number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Give Order",
+                inferred = true,
+                ret = {
+                  "unitsOrdered"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "{[number]=table}"
+                    },
+                    {
+                      type = "{cmdSpec,...}"
+                    },
+                    orderArray = {
+                      type = "{cmdSpec,...}"
+                    },
+                    unitMap = {
+                      type = "{[number]=table}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "GiveOrderArrayToUnitMap"
+                },
+                kind = "give order ",
+                name = "Spring.GiveOrderArrayToUnitMap",
+                args = "(unitMap, orderArray)",
+                summary = "",
+                lineno = 5209,
+                params = {
+                  "unitMap",
+                  "orderArray",
+                  map = {
+                    orderArray = "",
+                    unitMap = " table with unitIDs as keys"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Give Order",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "{number,...}"
+                    },
+                    {
+                      type = "{cmdSpec,...}"
+                    },
+                    orderArray = {
+                      type = "{cmdSpec,...}"
+                    },
+                    unitArray = {
+                      type = "{number,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "GiveOrderArrayToUnitArray"
+                },
+                kind = "give order ",
+                name = "Spring.GiveOrderArrayToUnitArray",
+                args = "(unitArray, orderArray)",
+                summary = "",
+                lineno = 5251,
+                params = {
+                  "unitArray",
+                  "orderArray",
+                  map = {
+                    orderArray = "",
+                    unitArray = " containing unitIDs"
+                  }
+                }
+              },
+              {
+                names_hierarchy = {
+                  "heightmap"
+                },
+                type = "section",
+                description = [[
+
+ Note that x & z coords are in worldspace (Game.mapSizeX/Z), still the heightmap resolution is Game.squareSize.
+****************************************************************************]],
+                tags = {
+                },
+                modifiers = {
+                },
+                display_name = "Heightmap",
+                summary = "",
+                name = "heightmap",
+                file = <cycle>,
+                lineno = 5363,
+                inferred = true
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Heightmap",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    x2_height = {
+                      type = "number"
+                    },
+                    height = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    z1 = {
+                      type = "number"
+                    },
+                    z2 = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "LevelHeightMap"
+                },
+                kind = "heightmap ",
+                name = "Spring.LevelHeightMap",
+                args = [=[(x1, z1, x2_height[, z2[, height]])]=],
+                summary = "Set a certain height to a point or rectangle area on the world",
+                lineno = 5364,
+                params = {
+                  "x1",
+                  "z1",
+                  "x2_height",
+                  "z2",
+                  "height",
+                  map = {
+                    x2_height = " if y2 and height are nil then this parameter is the height",
+                    height = "",
+                    z1 = "",
+                    z2 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Heightmap",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    x2_height = {
+                      type = "number"
+                    },
+                    height = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y2 = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y1 = {
+                      type = "number"
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "AdjustHeightMap"
+                },
+                kind = "heightmap ",
+                name = "Spring.AdjustHeightMap",
+                args = [=[(x1, y1, x2_height[, y2[, height]])]=],
+                summary = "Add a certain height to a point or rectangle area on the world",
+                lineno = 5394,
+                params = {
+                  "x1",
+                  "y1",
+                  "x2_height",
+                  "y2",
+                  "height",
+                  map = {
+                    x2_height = " if y2 and height are nil then this parameter is the height",
+                    height = "",
+                    y2 = "",
+                    y1 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Heightmap",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    factor = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    x2_factor = {
+                      type = "number"
+                    },
+                    y2 = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y1 = {
+                      type = "number"
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "RevertHeightMap"
+                },
+                kind = "heightmap ",
+                name = "Spring.RevertHeightMap",
+                args = [=[(x1, y1, x2_factor[, y2[, factor]])]=],
+                summary = "Restore original map height to a point or rectangle area on the world",
+                lineno = 5426,
+                params = {
+                  "x1",
+                  "y1",
+                  "x2_factor",
+                  "y2",
+                  "factor",
+                  map = {
+                    factor = "",
+                    x2_factor = " if y2 and factor are nil then this parameter is the factor",
+                    y2 = "",
+                    y1 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "newHeight",
+                      mods = {
+                        type = "?nil|number"
+                      },
+                      type = "?nil|number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Heightmap",
+                inferred = true,
+                ret = {
+                  "newHeight"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    z = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "AddHeightMap"
+                },
+                kind = "heightmap ",
+                name = "Spring.AddHeightMap",
+                args = "(x, z, height)",
+                summary = "Can only be called in `Spring.SetHeightMapFunc`",
+                lineno = 5472,
+                params = {
+                  "x",
+                  "z",
+                  "height",
+                  map = {
+                    height = "",
+                    x = "",
+                    z = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ Can only be called in `Spring.SetHeightMapFunc`. The terraform argument is 
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "absHeightDiff =0 nothing will be changed (the terraform starts) and if =1 the terraform will be finished.",
+                      mods = {
+                        type = "?nil|number"
+                      },
+                      type = "?nil|number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Heightmap",
+                inferred = true,
+                ret = {
+                  "absHeightDiff =0 nothing will be changed (the terraform starts) and if =1 the terraform will be finished."
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "1",
+                      optchain = "1",
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    terraform = {
+                      opt = "1",
+                      optchain = "1",
+                      type = "number"
+                    },
+                    z = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetHeightMap"
+                },
+                kind = "heightmap ",
+                name = "Spring.SetHeightMap",
+                args = "(x, z, height[, terraform=1])",
+                summary = "",
+                lineno = 5522,
+                params = {
+                  "x",
+                  "z",
+                  "height",
+                  "terraform",
+                  map = {
+                    height = "",
+                    x = "",
+                    terraform = " a scaling factor.",
+                    z = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ Example code:
+
+     function Spring.SetHeightMapFunc(function()
+       for z=0,Game.mapSizeZ, Game.squareSize do
+         for x=0,Game.mapSizeX, Game.squareSize do
+           Spring.SetHeightMap( x, z, 200 + 20 * math.cos((x + z) / 90) )
+         end
+       end
+     end)
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "absTotalHeightMapAmountChanged",
+                      mods = {
+                        type = "?nil|number"
+                      },
+                      type = "?nil|number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Heightmap",
+                inferred = true,
+                ret = {
+                  "absTotalHeightMapAmountChanged"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "function"
+                    },
+                    {
+                      optchain = true,
+                      opt = true
+                    },
+                    {
+                      optchain = true,
+                      opt = true
+                    },
+                    {
+                      optchain = true,
+                      opt = true
+                    },
+                    arg2 = {
+                      optchain = true,
+                      opt = true
+                    },
+                    lua_function = {
+                      type = "function"
+                    },
+                    argn = {
+                      optchain = true,
+                      opt = true
+                    },
+                    arg1 = {
+                      optchain = true,
+                      opt = true
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetHeightMapFunc"
+                },
+                kind = "heightmap ",
+                name = "Spring.SetHeightMapFunc",
+                args = [=[(lua_function[, arg1[, arg2[, argn]]])]=],
+                summary = "",
+                lineno = 5587,
+                params = {
+                  "lua_function",
+                  "arg1",
+                  "arg2",
+                  "argn",
+                  map = {
+                    arg2 = "",
+                    lua_function = "",
+                    argn = "",
+                    arg1 = ""
+                  }
+                }
+              },
+              {
+                names_hierarchy = {
+                  "heightmap"
+                },
+                type = "section",
+                description = [[
+
+****************************************************************************]],
+                tags = {
+                },
+                modifiers = {
+                },
+                display_name = "Height Map/Smooth Mesh",
+                summary = "",
+                name = "heightmap",
+                file = <cycle>,
+                lineno = 5641,
+                inferred = true
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    x2_height = {
+                      type = "number"
+                    },
+                    height = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y2 = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y1 = {
+                      type = "number"
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "LevelOriginalHeightMap"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.LevelOriginalHeightMap",
+                args = [=[(x1, y1, x2_height[, y2[, height]])]=],
+                summary = "Set a height to a point or rectangle area to the original map height cache",
+                lineno = 5642,
+                params = {
+                  "x1",
+                  "y1",
+                  "x2_height",
+                  "y2",
+                  "height",
+                  map = {
+                    x2_height = " if y2 and height are nil then this parameter is the height",
+                    height = "",
+                    y2 = "",
+                    y1 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    x2_height = {
+                      type = "number"
+                    },
+                    height = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y2 = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y1 = {
+                      type = "number"
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "AdjustOriginalHeightMap"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.AdjustOriginalHeightMap",
+                args = [=[(x1, y1, x2_height[, y2[, height]])]=],
+                summary = "Add height to a point or rectangle area to the original map height cache",
+                lineno = 5671,
+                params = {
+                  "x1",
+                  "y1",
+                  "x2_height",
+                  "y2",
+                  "height",
+                  map = {
+                    x2_height = " if y2 and height are nil then this parameter is the height",
+                    height = "",
+                    y2 = "",
+                    y1 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    factor = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    x2_factor = {
+                      type = "number"
+                    },
+                    y2 = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y1 = {
+                      type = "number"
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "RevertOriginalHeightMap"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.RevertOriginalHeightMap",
+                args = [=[(x1, y1, x2_factor[, y2[, factor]])]=],
+                summary = "Restore original map height cache to a point or rectangle area on the world",
+                lineno = 5702,
+                params = {
+                  "x1",
+                  "y1",
+                  "x2_factor",
+                  "y2",
+                  "factor",
+                  map = {
+                    factor = "",
+                    x2_factor = " if y2 and factor are nil then this parameter is the factor",
+                    y2 = "",
+                    y1 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ Can only be called in `Spring.SetOriginalHeightMapFunc`
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    y = {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "AddOriginalHeightMap"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.AddOriginalHeightMap",
+                args = "(x, y, height)",
+                summary = "",
+                lineno = 5750,
+                params = {
+                  "x",
+                  "y",
+                  "height",
+                  map = {
+                    y = "",
+                    x = "",
+                    height = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ Can only be called in `Spring.SetOriginalHeightMapFunc`
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y = {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    factor = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetOriginalHeightMap"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.SetOriginalHeightMap",
+                args = "(x, y, height[, factor])",
+                summary = "",
+                lineno = 5793,
+                params = {
+                  "x",
+                  "y",
+                  "height",
+                  "factor",
+                  map = {
+                    y = "",
+                    x = "",
+                    factor = "",
+                    height = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ Cannot recurse on itself
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "function"
+                    },
+                    heightMapFunc = {
+                      type = "function"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetOriginalHeightMapFunc"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.SetOriginalHeightMapFunc",
+                args = "(heightMapFunc)",
+                summary = "",
+                lineno = 5842,
+                params = {
+                  "heightMapFunc",
+                  map = {
+                    heightMapFunc = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number",
+                      opt = true
+                    },
+                    {
+                      type = "number",
+                      opt = true
+                    },
+                    {
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    },
+                    x2 = {
+                      type = "number",
+                      opt = true
+                    },
+                    z1 = {
+                      type = "number"
+                    },
+                    z2 = {
+                      type = "number",
+                      opt = true
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "LevelSmoothMesh"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.LevelSmoothMesh",
+                args = "(x1, z1[, x2][, z2], height)",
+                summary = "",
+                lineno = 5894,
+                params = {
+                  "x1",
+                  "z1",
+                  "x2",
+                  "z2",
+                  "height",
+                  map = {
+                    height = "",
+                    x2 = "",
+                    z1 = "",
+                    z2 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number",
+                      opt = true
+                    },
+                    {
+                      type = "number",
+                      opt = true
+                    },
+                    {
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    },
+                    x2 = {
+                      type = "number",
+                      opt = true
+                    },
+                    z1 = {
+                      type = "number"
+                    },
+                    z2 = {
+                      type = "number",
+                      opt = true
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "AdjustSmoothMesh"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.AdjustSmoothMesh",
+                args = "(x1, z1[, x2][, z2], height)",
+                summary = "",
+                lineno = 5920,
+                params = {
+                  "x1",
+                  "z1",
+                  "x2",
+                  "z2",
+                  "height",
+                  map = {
+                    height = "",
+                    x2 = "",
+                    z1 = "",
+                    z2 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number",
+                      opt = true
+                    },
+                    {
+                      type = "number",
+                      opt = true
+                    },
+                    {
+                      type = "number"
+                    },
+                    origFactor = {
+                      type = "number"
+                    },
+                    x2 = {
+                      type = "number",
+                      opt = true
+                    },
+                    z1 = {
+                      type = "number"
+                    },
+                    z2 = {
+                      type = "number",
+                      opt = true
+                    },
+                    x1 = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "RevertSmoothMesh"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.RevertSmoothMesh",
+                args = "(x1, z1[, x2][, z2], origFactor)",
+                summary = "",
+                lineno = 5946,
+                params = {
+                  "x1",
+                  "z1",
+                  "x2",
+                  "z2",
+                  "origFactor",
+                  map = {
+                    origFactor = "",
+                    x2 = "",
+                    z1 = "",
+                    z2 = "",
+                    x1 = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "newHeight",
+                      mods = {
+                        type = "?nil|number"
+                      },
+                      type = "?nil|number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  "newHeight"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    z = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "AddSmoothMesh"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.AddSmoothMesh",
+                args = "(x, z, height)",
+                summary = "Can only be called in `Spring.SetSmoothMeshFunc`.",
+                lineno = 5987,
+                params = {
+                  "x",
+                  "z",
+                  "height",
+                  map = {
+                    height = "",
+                    x = "",
+                    z = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "absHeightDiff",
+                      mods = {
+                        type = "?nil|number"
+                      },
+                      type = "?nil|number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  "absHeightDiff"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "1",
+                      optchain = "1",
+                      type = "number"
+                    },
+                    height = {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    terraform = {
+                      opt = "1",
+                      optchain = "1",
+                      type = "number"
+                    },
+                    z = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetSmoothMesh"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.SetSmoothMesh",
+                args = "(x, z, height[, terraform=1])",
+                summary = "Can only be called in `Spring.SetSmoothMeshFunc`.",
+                lineno = 6026,
+                params = {
+                  "x",
+                  "z",
+                  "height",
+                  "terraform",
+                  map = {
+                    height = "",
+                    x = "",
+                    terraform = "",
+                    z = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "absTotalHeightMapAmountChanged",
+                      mods = {
+                        type = "?nil|number"
+                      },
+                      type = "?nil|number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Height Map/Smooth Mesh",
+                inferred = true,
+                ret = {
+                  "absTotalHeightMapAmountChanged"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "function"
+                    },
+                    {
+                    },
+                    {
+                    },
+                    {
+                    },
+                    arg2 = {
+                    },
+                    lua_function = {
+                      type = "function"
+                    },
+                    argn = {
+                    },
+                    arg1 = {
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetSmoothMeshFunc"
+                },
+                kind = "height map/smooth mesh ",
+                name = "Spring.SetSmoothMeshFunc",
+                args = "(lua_function, arg1, arg2, argn)",
+                summary = "",
+                lineno = 6073,
+                params = {
+                  "lua_function",
+                  "arg1",
+                  "arg2",
+                  "argn",
+                  map = {
+                    arg2 = "[opt]",
+                    lua_function = "",
+                    argn = "[opt]",
+                    arg1 = "[opt]"
+                  }
+                }
+              },
+              {
+                names_hierarchy = {
+                  "terraintypes"
+                },
+                type = "section",
+                description = [[
+
+****************************************************************************]],
+                tags = {
+                },
+                modifiers = {
+                },
+                display_name = "TerrainTypes",
+                summary = "",
+                name = "terraintypes",
+                file = <cycle>,
+                lineno = 6113,
+                inferred = true
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "oldType",
+                      mods = {
+                        type = "?nil|number"
+                      },
+                      type = "?nil|number"
+                    },
+                    g = 0
+                  }
+                },
+                section = "TerrainTypes",
+                inferred = true,
+                ret = {
+                  "oldType"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    newType = {
+                      type = "number"
+                    },
+                    z = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|number"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetMapSquareTerrainType"
+                },
+                kind = "terraintypes ",
+                name = "Spring.SetMapSquareTerrainType",
+                args = "(x, z, newType)",
+                summary = "",
+                lineno = 6114,
+                params = {
+                  "x",
+                  "z",
+                  "newType",
+                  map = {
+                    x = "",
+                    newType = "",
+                    z = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "true",
+                      mods = {
+                        type = "?nil|bool"
+                      },
+                      type = "?nil|bool"
+                    },
+                    g = 0
+                  }
+                },
+                section = "TerrainTypes",
+                inferred = true,
+                ret = {
+                  "true"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    },
+                    {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    },
+                    {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    },
+                    {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    },
+                    speedKBOts = {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    },
+                    speedTanks = {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    },
+                    speedShips = {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    },
+                    typeIndex = {
+                      type = "number"
+                    },
+                    speedHovers = {
+                      opt = "nil",
+                      optchain = "nil",
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "?nil|bool"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetTerrainTypeData"
+                },
+                kind = "terraintypes ",
+                name = "Spring.SetTerrainTypeData",
+                args = [=[(typeIndex[, speedTanks=nil[, speedKBOts=nil[, speedHovers=nil[, speedShips=nil]]]])]=],
+                summary = "",
+                lineno = 6146,
+                params = {
+                  "typeIndex",
+                  "speedTanks",
+                  "speedKBOts",
+                  "speedHovers",
+                  "speedShips",
+                  map = {
+                    speedKBOts = "",
+                    speedTanks = "",
+                    speedShips = "",
+                    typeIndex = "",
+                    speedHovers = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "See also buildingMask unitdef tag.",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "TerrainTypes",
+                inferred = true,
+                ret = {
+                  "See also buildingMask unitdef tag."
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    x = {
+                      type = "number"
+                    },
+                    mask = {
+                      type = "number"
+                    },
+                    z = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetSquareBuildingMask"
+                },
+                kind = "terraintypes ",
+                name = "Spring.SetSquareBuildingMask",
+                args = "(x, z, mask)",
+                summary = "",
+                lineno = 6193,
+                params = {
+                  "x",
+                  "z",
+                  "mask",
+                  map = {
+                    x = "",
+                    mask = "",
+                    z = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "TerrainTypes",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponID = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "UnitWeaponFire"
+                },
+                kind = "terraintypes ",
+                name = "Spring.UnitWeaponFire",
+                args = "(unitID, weaponID)",
+                summary = "",
+                lineno = 6222,
+                params = {
+                  "unitID",
+                  "weaponID",
+                  map = {
+                    unitID = "",
+                    weaponID = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "TerrainTypes",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {

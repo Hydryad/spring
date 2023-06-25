@@ -1,0 +1,67 @@
+---FBO
+
+---
+---Parameters
+---@param data: depth attachment
+---@param data: stencil attachment
+---@param data: color0 attachment
+---@param data: color1 attachment
+---@param data: color2 attachment
+---@param data: colorn attachment
+---@param data: color15 attachment
+---@param data: drawbuffers table
+---Parameters
+---@param fbo fbo
+---Parameters
+---@param fbo fbo
+---@param target number (optional)
+---@return bool valid
+function gl.IsValidFBO(fbo[, target]) end
+
+---@return ?number status
+function gl.IsValidFBO(fbo[, target]) end
+
+---Parameters
+---@param fbo fbo
+---@param target number (optional)
+---@param identities boolean (optional)
+---@param lua_function function (optional)
+---@param arg1 (optional)
+---@param arg2 (optional)
+---@param argn (optional)
+---Parameters
+---@param x0Src number
+---@param y0Src number
+---@param x1Src number
+---@param y1Src number
+---@param x0Dst number
+---@param y0Dst number
+---@param x1Dst number
+---@param y1Dst number
+---@param mask number (default): `GL_COLOR_BUFFER_BIT`
+---@param filter number (default): `GL_NEAREST`
+---Parameters
+---@param fboSrc fbo
+---@param x0Src number
+---@param y0Src number
+---@param x1Src number
+---@param y1Src number
+---@param fboDst fbo
+---@param x0Dst number
+---@param y0Dst number
+---@param x1Dst number
+---@param y1Dst number
+---@param mask number (default): `GL_COLOR_BUFFER_BIT`
+---@param filter number (default): `GL_NEAREST`
+
+---
+---Fields
+---@param depth attachment
+---@param stencil attachment
+---@param color0 attachment
+---@param color1 attachment
+---@param color2 attachment
+---@param colorn attachment
+---@param color15 attachment
+---@param drawbuffers table
+---@param readbuffer table

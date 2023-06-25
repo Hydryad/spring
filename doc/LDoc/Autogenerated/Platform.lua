@@ -1,0 +1,29 @@
+---Platform
+
+---
+---Fields
+---@param gpu string
+---@param gpuVendor string
+---@param glVersionShort string
+---@param glslVersionShort string
+---@param glVersion string
+---@param glVendor string
+---@param glRenderer string
+---@param glslVersion string
+---@param glewVersion string
+---@param osName string
+---@param osFamily string
+---@param numDisplays number
+---@param gpuMemorySize number
+---@param sdlVersionCompiledMajor number
+---@param sdlVersionCompiledMinor number
+---@param sdlVersionCompiledPatch number
+---@param sdlVersionLinkedMajor number
+---@param sdlVersionLinkedMinor number
+---@param sdlVersionLinkedPatch number
+---@param glSupportNonPowerOfTwoTex boolean
+---@param glSupportTextureQueryLOD boolean
+---@param glSupport24bitDepthBuffer boolean
+---@param glSupportRestartPrimitive boolean
+---@param glSupportClipSpaceControl boolean
+---@param glSupportFragDepthLayout boolean

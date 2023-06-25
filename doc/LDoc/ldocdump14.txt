@@ -1,0 +1,3522 @@
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "absHeightDiff",
+                    mods = {
+                      type = "?nil|number"
+                    },
+                    type = "?nil|number"
+                  },
+                  g = 0
+                }
+              },
+              section = "Height Map/Smooth Mesh",
+              inferred = true,
+              ret = {
+                "absHeightDiff"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    opt = "1",
+                    optchain = "1",
+                    type = "number"
+                  },
+                  height = {
+                    type = "number"
+                  },
+                  x = {
+                    type = "number"
+                  },
+                  terraform = {
+                    opt = "1",
+                    optchain = "1",
+                    type = "number"
+                  },
+                  z = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|number"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetSmoothMesh"
+              },
+              kind = "height map/smooth mesh ",
+              name = "Spring.SetSmoothMesh",
+              args = "(x, z, height[, terraform=1])",
+              summary = "Can only be called in `Spring.SetSmoothMeshFunc`.",
+              lineno = 6026,
+              params = {
+                "x",
+                "z",
+                "height",
+                "terraform",
+                map = {
+                  height = "",
+                  x = "",
+                  terraform = "",
+                  z = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "absTotalHeightMapAmountChanged",
+                    mods = {
+                      type = "?nil|number"
+                    },
+                    type = "?nil|number"
+                  },
+                  g = 0
+                }
+              },
+              section = "Height Map/Smooth Mesh",
+              inferred = true,
+              ret = {
+                "absTotalHeightMapAmountChanged"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "function"
+                  },
+                  {
+                  },
+                  {
+                  },
+                  {
+                  },
+                  arg2 = {
+                  },
+                  lua_function = {
+                    type = "function"
+                  },
+                  argn = {
+                  },
+                  arg1 = {
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|number"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetSmoothMeshFunc"
+              },
+              kind = "height map/smooth mesh ",
+              name = "Spring.SetSmoothMeshFunc",
+              args = "(lua_function, arg1, arg2, argn)",
+              summary = "",
+              lineno = 6073,
+              params = {
+                "lua_function",
+                "arg1",
+                "arg2",
+                "argn",
+                map = {
+                  arg2 = "[opt]",
+                  lua_function = "",
+                  argn = "[opt]",
+                  arg1 = "[opt]"
+                }
+              }
+            },
+            {
+              names_hierarchy = {
+                "terraintypes"
+              },
+              type = "section",
+              description = [[
+
+****************************************************************************]],
+              tags = {
+              },
+              modifiers = {
+              },
+              display_name = "TerrainTypes",
+              summary = "",
+              name = "terraintypes",
+              file = <cycle>,
+              lineno = 6113,
+              inferred = true
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "oldType",
+                    mods = {
+                      type = "?nil|number"
+                    },
+                    type = "?nil|number"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                "oldType"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  x = {
+                    type = "number"
+                  },
+                  newType = {
+                    type = "number"
+                  },
+                  z = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|number"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetMapSquareTerrainType"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SetMapSquareTerrainType",
+              args = "(x, z, newType)",
+              summary = "",
+              lineno = 6114,
+              params = {
+                "x",
+                "z",
+                "newType",
+                map = {
+                  x = "",
+                  newType = "",
+                  z = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "true",
+                    mods = {
+                      type = "?nil|bool"
+                    },
+                    type = "?nil|bool"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                "true"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  },
+                  {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  },
+                  {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  },
+                  {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  },
+                  speedKBOts = {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  },
+                  speedTanks = {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  },
+                  speedShips = {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  },
+                  typeIndex = {
+                    type = "number"
+                  },
+                  speedHovers = {
+                    opt = "nil",
+                    optchain = "nil",
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|bool"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetTerrainTypeData"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SetTerrainTypeData",
+              args = [=[(typeIndex[, speedTanks=nil[, speedKBOts=nil[, speedHovers=nil[, speedShips=nil]]]])]=],
+              summary = "",
+              lineno = 6146,
+              params = {
+                "typeIndex",
+                "speedTanks",
+                "speedKBOts",
+                "speedHovers",
+                "speedShips",
+                map = {
+                  speedKBOts = "",
+                  speedTanks = "",
+                  speedShips = "",
+                  typeIndex = "",
+                  speedHovers = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "See also buildingMask unitdef tag.",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                "See also buildingMask unitdef tag."
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  x = {
+                    type = "number"
+                  },
+                  mask = {
+                    type = "number"
+                  },
+                  z = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetSquareBuildingMask"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SetSquareBuildingMask",
+              args = "(x, z, mask)",
+              summary = "",
+              lineno = 6193,
+              params = {
+                "x",
+                "z",
+                "mask",
+                map = {
+                  x = "",
+                  mask = "",
+                  z = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  unitID = {
+                    type = "number"
+                  },
+                  weaponID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "UnitWeaponFire"
+              },
+              kind = "terraintypes ",
+              name = "Spring.UnitWeaponFire",
+              args = "(unitID, weaponID)",
+              summary = "",
+              lineno = 6222,
+              params = {
+                "unitID",
+                "weaponID",
+                map = {
+                  unitID = "",
+                  weaponID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  passengerID = {
+                    type = "number"
+                  },
+                  pieceNum = {
+                    type = "number"
+                  },
+                  transporterID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "UnitAttach"
+              },
+              kind = "terraintypes ",
+              name = "Spring.UnitAttach",
+              args = "(transporterID, passengerID, pieceNum)",
+              summary = "",
+              lineno = 6269,
+              params = {
+                "transporterID",
+                "passengerID",
+                "pieceNum",
+                map = {
+                  passengerID = "",
+                  pieceNum = "",
+                  transporterID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  passengerID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "UnitDetach"
+              },
+              kind = "terraintypes ",
+              name = "Spring.UnitDetach",
+              args = "(passengerID)",
+              summary = "",
+              lineno = 6302,
+              params = {
+                "passengerID",
+                map = {
+                  passengerID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  passengerID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "UnitDetachFromAir"
+              },
+              kind = "terraintypes ",
+              name = "Spring.UnitDetachFromAir",
+              args = "(passengerID)",
+              summary = "",
+              lineno = 6324,
+              params = {
+                "passengerID",
+                map = {
+                  passengerID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  passengerID = {
+                    type = "number"
+                  },
+                  transportID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetUnitLoadingTransport"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SetUnitLoadingTransport",
+              args = "(passengerID, transportID)",
+              summary = "Disables collisions between the two units to allow colvol intersection during the approach.",
+              lineno = 6358,
+              params = {
+                "passengerID",
+                "transportID",
+                map = {
+                  passengerID = "",
+                  transportID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "projectileID",
+                    mods = {
+                      type = "?nil|number"
+                    },
+                    type = "?nil|number"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                "projectileID"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "projectileParams"
+                  },
+                  projectileParams = {
+                    type = "projectileParams"
+                  },
+                  weaponDefID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|number"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SpawnProjectile"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SpawnProjectile",
+              args = "(weaponDefID, projectileParams)",
+              summary = "",
+              lineno = 6388,
+              params = {
+                "weaponDefID",
+                "projectileParams",
+                map = {
+                  projectileParams = "",
+                  weaponDefID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  projectileID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "DeleteProjectile"
+              },
+              kind = "terraintypes ",
+              name = "Spring.DeleteProjectile",
+              args = "(projectileID)",
+              summary = "Silently removes projectiles (no explosion).",
+              lineno = 6409,
+              params = {
+                "projectileID",
+                map = {
+                  projectileID = ""
+                }
+              }
+            },
+            {
+              description = [[
+
+ The weapondefID is only used for visuals and for passing into callins like UnitDamaged.
+]],
+              parameter = "field",
+              section = "TerrainTypes",
+              inferred = true,
+              names_hierarchy = {
+                "explosionParams"
+              },
+              type = "table",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                ["return"] = {
+                },
+                field = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  damageGround = {
+                    type = "boolean"
+                  },
+                  owner = {
+                    type = "number"
+                  },
+                  hitFeature = {
+                    type = "number"
+                  },
+                  edgeEffectiveness = {
+                    type = "number"
+                  },
+                  damageAreaOfEffect = {
+                    type = "number"
+                  },
+                  hitUnit = {
+                    type = "number"
+                  },
+                  weaponDef = {
+                    type = "number"
+                  },
+                  impactOnly = {
+                    type = "boolean"
+                  },
+                  gfxMod = {
+                    type = "number"
+                  },
+                  explosionSpeed = {
+                    type = "number"
+                  },
+                  ignoreOwner = {
+                    type = "boolean"
+                  },
+                  craterAreaOfEffect = {
+                    type = "number"
+                  }
+                },
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  damageGround = {
+                    type = "boolean"
+                  },
+                  owner = {
+                    type = "number"
+                  },
+                  hitFeature = {
+                    type = "number"
+                  },
+                  edgeEffectiveness = {
+                    type = "number"
+                  },
+                  damageAreaOfEffect = {
+                    type = "number"
+                  },
+                  hitUnit = {
+                    type = "number"
+                  },
+                  weaponDef = {
+                    type = "number"
+                  },
+                  impactOnly = {
+                    type = "boolean"
+                  },
+                  gfxMod = {
+                    type = "number"
+                  },
+                  explosionSpeed = {
+                    type = "number"
+                  },
+                  ignoreOwner = {
+                    type = "boolean"
+                  },
+                  craterAreaOfEffect = {
+                    type = "number"
+                  }
+                }
+              },
+              kind = "terraintypes ",
+              name = "explosionParams",
+              args = "(weaponDef, owner, hitUnit, hitFeature, craterAreaOfEffect, damageAreaOfEffect, edgeEffectiveness, explosionSpeed, gfxMod, impactOnly, ignoreOwner, damageGround)",
+              summary = [[Parameters for explosion
+
+ Please note the explosion defaults to 1 damage regardless of what it's defined in the weaponDef.]],
+              lineno = 6558,
+              params = {
+                "weaponDef",
+                "owner",
+                "hitUnit",
+                "hitFeature",
+                "craterAreaOfEffect",
+                "damageAreaOfEffect",
+                "edgeEffectiveness",
+                "explosionSpeed",
+                "gfxMod",
+                "impactOnly",
+                "ignoreOwner",
+                "damageGround",
+                map = {
+                  damageGround = "",
+                  owner = "",
+                  hitFeature = "",
+                  edgeEffectiveness = "",
+                  damageAreaOfEffect = "",
+                  hitUnit = "",
+                  weaponDef = "",
+                  impactOnly = "",
+                  gfxMod = "",
+                  explosionSpeed = "",
+                  ignoreOwner = "",
+                  craterAreaOfEffect = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number",
+                    opt = "0"
+                  },
+                  {
+                    type = "number",
+                    opt = "0"
+                  },
+                  {
+                    type = "number",
+                    opt = "0"
+                  },
+                  {
+                    type = "number",
+                    opt = "0"
+                  },
+                  {
+                    type = "number",
+                    opt = "0"
+                  },
+                  {
+                    type = "number",
+                    opt = "0"
+                  },
+                  {
+                    type = "explosionParams"
+                  },
+                  dirX = {
+                    type = "number",
+                    opt = "0"
+                  },
+                  posY = {
+                    type = "number",
+                    opt = "0"
+                  },
+                  posX = {
+                    type = "number",
+                    opt = "0"
+                  },
+                  explosionParams = {
+                    type = "explosionParams"
+                  },
+                  posZ = {
+                    type = "number",
+                    opt = "0"
+                  },
+                  dirZ = {
+                    type = "number",
+                    opt = "0"
+                  },
+                  dirY = {
+                    type = "number",
+                    opt = "0"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SpawnExplosion"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SpawnExplosion",
+              args = "([posX=0][, posY=0][, posZ=0][, dirX=0][, dirY=0][, dirZ=0], explosionParams)",
+              summary = "",
+              lineno = 6559,
+              params = {
+                "posX",
+                "posY",
+                "posZ",
+                "dirX",
+                "dirY",
+                "dirZ",
+                "explosionParams",
+                map = {
+                  dirX = "",
+                  posY = "",
+                  posX = "",
+                  explosionParams = "",
+                  posZ = "",
+                  dirZ = "",
+                  dirY = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "success",
+                    mods = {
+                      type = "?nil|bool"
+                    },
+                    type = "?nil|bool"
+                  },
+                  {
+                    text = "cegID",
+                    mods = {
+                      type = "number"
+                    },
+                    type = "number"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                "success",
+                "cegID"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "string"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  dirX = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  radius = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  posY = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  dirY = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  dirZ = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  posX = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  posZ = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  cegname = {
+                    type = "string"
+                  },
+                  damage = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|bool"
+                  },
+                  {
+                    type = "number"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SpawnCEG"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SpawnCEG",
+              args = [=[(cegname[, posX=0[, posY=0[, posZ=0[, dirX=0[, dirY=0[, dirZ=0[, radius=0[, damage=0]]]]]]]])]=],
+              summary = "",
+              lineno = 6632,
+              params = {
+                "cegname",
+                "posX",
+                "posY",
+                "posZ",
+                "dirX",
+                "dirY",
+                "dirZ",
+                "radius",
+                "damage",
+                map = {
+                  dirX = "",
+                  radius = "",
+                  posY = "",
+                  dirY = "",
+                  dirZ = "",
+                  posX = "",
+                  posZ = "",
+                  cegname = "",
+                  damage = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "success",
+                    mods = {
+                      type = "?nil|bool"
+                    },
+                    type = "?nil|bool"
+                  },
+                  g = 0
+                }
+              },
+              section = "TerrainTypes",
+              inferred = true,
+              ret = {
+                "success"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  dirX = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  radius = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  posY = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  unitID = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  dirY = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  sfxID = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  posX = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  dirZ = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  posZ = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  },
+                  absolute = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  damage = {
+                    opt = "0",
+                    optchain = "0",
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|bool"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SpawnSFX"
+              },
+              kind = "terraintypes ",
+              name = "Spring.SpawnSFX",
+              args = [=[([unitID=0[, sfxID=0[, posX=0[, posY=0[, posZ=0[, dirX=0[, dirY=0[, dirZ=0[, radius=0[, damage=0[, absolute]]]]]]]]]]])]=],
+              summary = "Equal to the UnitScript versions of EmitSFX, but takes position and direction arguments (in either unit- or piece-space) instead of a piece index.",
+              lineno = 6666,
+              params = {
+                "unitID",
+                "sfxID",
+                "posX",
+                "posY",
+                "posZ",
+                "dirX",
+                "dirY",
+                "dirZ",
+                "radius",
+                "damage",
+                "absolute",
+                map = {
+                  dirX = "",
+                  radius = "",
+                  posY = "",
+                  unitID = "",
+                  dirY = "",
+                  sfxID = "",
+                  posX = "",
+                  dirZ = "",
+                  posZ = "",
+                  absolute = "",
+                  damage = ""
+                }
+              }
+            },
+            {
+              names_hierarchy = {
+                "other"
+              },
+              type = "section",
+              description = [[
+
+****************************************************************************]],
+              tags = {
+              },
+              modifiers = {
+              },
+              display_name = "Other",
+              summary = "",
+              name = "other",
+              file = <cycle>,
+              lineno = 6694,
+              inferred = true
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Other",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "boolean"
+                  },
+                  noPause = {
+                    type = "boolean"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetNoPause"
+              },
+              kind = "other ",
+              name = "Spring.SetNoPause",
+              args = "(noPause)",
+              summary = "",
+              lineno = 6695,
+              params = {
+                "noPause",
+                map = {
+                  noPause = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Other",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  ExpHealthScale = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  ExpReloadScale = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  ExpPowerScale = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  expGrade = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetExperienceGrade"
+              },
+              kind = "other ",
+              name = "Spring.SetExperienceGrade",
+              args = [=[(expGrade[, ExpPowerScale[, ExpHealthScale[, ExpReloadScale]]])]=],
+              summary = "Defines how often `Callins.UnitExperience` will be called.",
+              lineno = 6717,
+              params = {
+                "expGrade",
+                "ExpPowerScale",
+                "ExpHealthScale",
+                "ExpReloadScale",
+                map = {
+                  ExpHealthScale = "",
+                  ExpReloadScale = "",
+                  ExpPowerScale = "",
+                  expGrade = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Other",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  allyTeamID = {
+                    type = "number"
+                  },
+                  allyteamErrorSize = {
+                    type = "number"
+                  },
+                  baseErrorMult = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  baseErrorSize = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetRadarErrorParams"
+              },
+              kind = "other ",
+              name = "Spring.SetRadarErrorParams",
+              args = [=[(allyTeamID, allyteamErrorSize[, baseErrorSize[, baseErrorMult]])]=],
+              summary = "",
+              lineno = 6749,
+              params = {
+                "allyTeamID",
+                "allyteamErrorSize",
+                "baseErrorSize",
+                "baseErrorMult",
+                map = {
+                  allyTeamID = "",
+                  allyteamErrorSize = "",
+                  baseErrorMult = "",
+                  baseErrorSize = ""
+                }
+              }
+            },
+            {
+              names_hierarchy = {
+                "commanddescriptions"
+              },
+              type = "section",
+              description = [[
+
+ Doesn't work in unsynced code!
+****************************************************************************]],
+              tags = {
+              },
+              modifiers = {
+              },
+              display_name = "Command Descriptions",
+              summary = "",
+              name = "commanddescriptions",
+              file = <cycle>,
+              lineno = 6835,
+              inferred = true
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Command Descriptions",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "table"
+                  },
+                  unitID = {
+                    type = "number"
+                  },
+                  cmdArray = {
+                    type = "table"
+                  },
+                  cmdDescID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "EditUnitCmdDesc"
+              },
+              kind = "command descriptions ",
+              name = "Spring.EditUnitCmdDesc",
+              args = "(unitID, cmdDescID, cmdArray)",
+              summary = "",
+              lineno = 6898,
+              params = {
+                "unitID",
+                "cmdDescID",
+                "cmdArray",
+                map = {
+                  unitID = "",
+                  cmdArray = [[ structure of cmdArray:
+     {
+       [ id          = int ],
+       [ type        = int ],
+       [ name        = string ],
+       [ action      = string ],
+       [ tooltip     = string ],
+       [ texture     = string ],
+       [ cursor      = string ],
+       [ queueing    = boolean ],
+       [ hidden      = boolean ],
+       [ disabled    = boolean ],
+       [ showUnique  = boolean ],
+       [ onlyTexture = boolean ],
+       [ params      = { string = string, ... } ]
+     }]],
+                  cmdDescID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Command Descriptions",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number",
+                    opt = true
+                  },
+                  {
+                    type = "table"
+                  },
+                  unitID = {
+                    type = "number"
+                  },
+                  cmdArray = {
+                    type = "table"
+                  },
+                  cmdDescID = {
+                    type = "number",
+                    opt = true
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "InsertUnitCmdDesc"
+              },
+              kind = "command descriptions ",
+              name = "Spring.InsertUnitCmdDesc",
+              args = "(unitID[, cmdDescID], cmdArray)",
+              summary = "",
+              lineno = 6931,
+              params = {
+                "unitID",
+                "cmdDescID",
+                "cmdArray",
+                map = {
+                  unitID = "",
+                  cmdArray = "",
+                  cmdDescID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Command Descriptions",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  unitID = {
+                    type = "number"
+                  },
+                  cmdDescID = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "RemoveUnitCmdDesc"
+              },
+              kind = "command descriptions ",
+              name = "Spring.RemoveUnitCmdDesc",
+              args = "(unitID[, cmdDescID])",
+              summary = "",
+              lineno = 6971,
+              params = {
+                "unitID",
+                "cmdDescID",
+                map = {
+                  unitID = "",
+                  cmdDescID = ""
+                }
+              }
+            }
+          },
+          filename = "c:\\users\\matthew\\github repos\\spring\\rts\\lua\\luasyncedctrl.cpp",
+          args = {
+            package = "c:\\users\\matthew\\github repos\\spring\\rts\\lua",
+            colon = false,
+            quiet = false,
+            format = "discount",
+            icon = "none",
+            simple = false,
+            template = "!",
+            dir = "doc",
+            ignore = false,
+            title = "Reference",
+            file = "c:\\users\\matthew\\github repos\\spring\\rts\\lua\\luasyncedctrl.cpp",
+            unsafe_no_sandbox = false,
+            merge = false,
+            module = false,
+            ext = "html",
+            no_args_infer = false,
+            multimodule = false,
+            unqualified = false,
+            one = false,
+            boilerplate = false,
+            testing = false,
+            define = "none",
+            style = "!",
+            tags = "none",
+            lls = false,
+            project = "ldoc",
+            not_luadoc = true,
+            output = "index",
+            fatalwarnings = false,
+            config = "./config.ld",
+            version = false,
+            filter = "pl.pretty.dump",
+            date = "system",
+            all = false,
+            verbose = false,
+            dump = false
+          },
+          error = "function: 00DF8D00",
+          modules = {
+            <cycle>
+          },
+          lang = {
+            start_comment_ = "^///+",
+            line_comment = "^//+",
+            extra = {
+            },
+            block_comment = "^/%*%*+",
+            method_call = ":",
+            empty_comment_ = "^///+%s*$"
+          },
+          base = "c:\\users\\matthew\\github repos\\spring\\rts\\lua"
+        },
+        lineno = 865,
+        inferred = true
+      },
+      {
+        names_hierarchy = {
+          "rulesparams"
+        },
+        type = "section",
+        description = [[
+
+****************************************************************************]],
+        tags = {
+        },
+        modifiers = {
+        },
+        display_name = "Rules Params",
+        summary = "",
+        name = "rulesparams",
+        file = {
+          warning = "function: 00E32E80",
+          sections = {
+          },
+          items = {
+            <cycle>,
+            {
+              names_hierarchy = {
+                "teams"
+              },
+              type = "section",
+              description = [[
+
+****************************************************************************]],
+              tags = {
+              },
+              modifiers = {
+              },
+              display_name = "Teams",
+              summary = "",
+              name = "teams",
+              file = <cycle>,
+              lineno = 714,
+              inferred = true
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Teams",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  firstAllyTeamID = {
+                    type = "number"
+                  },
+                  ally = {
+                    type = "boolean"
+                  },
+                  secondAllyTeamID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetAlly"
+              },
+              kind = "teams ",
+              name = "Spring.SetAlly",
+              args = "(firstAllyTeamID, secondAllyTeamID, ally)",
+              summary = "Changes the value of the (one-sided) alliance between: firstAllyTeamID -> secondAllyTeamID.",
+              lineno = 715,
+              params = {
+                "firstAllyTeamID",
+                "secondAllyTeamID",
+                "ally",
+                map = {
+                  firstAllyTeamID = "",
+                  ally = "",
+                  secondAllyTeamID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Teams",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  playerID = {
+                    type = "number"
+                  },
+                  teamID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "AssignPlayerToTeam"
+              },
+              kind = "teams ",
+              name = "Spring.AssignPlayerToTeam",
+              args = "(playerID, teamID)",
+              summary = "Assigns a player to a team.",
+              lineno = 737,
+              params = {
+                "playerID",
+                "teamID",
+                map = {
+                  playerID = "",
+                  teamID = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Teams",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "boolean"
+                  },
+                  allyTeamID = {
+                    type = "number"
+                  },
+                  globallos = {
+                    type = "boolean"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetGlobalLos"
+              },
+              kind = "teams ",
+              name = "Spring.SetGlobalLos",
+              args = "(allyTeamID, globallos)",
+              summary = "Changes access to global line of sight for a team and its allies.",
+              lineno = 765,
+              params = {
+                "allyTeamID",
+                "globallos",
+                map = {
+                  allyTeamID = "",
+                  globallos = ""
+                }
+              }
+            },
+            {
+              names_hierarchy = {
+                "gameend"
+              },
+              type = "section",
+              description = "",
+              tags = {
+              },
+              modifiers = {
+              },
+              display_name = "Game End",
+              summary = "",
+              name = "gameend",
+              file = <cycle>,
+              lineno = 790,
+              inferred = true
+            },
+            {
+              description = [[
+
+
+ Gaia team cannot be killed.
+]],
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Game End",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  teamID = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "KillTeam"
+              },
+              kind = "game end ",
+              name = "Spring.KillTeam",
+              args = "(teamID)",
+              summary = "Will declare a team to be dead (no further orders can be assigned to such teams units).",
+              lineno = 791,
+              params = {
+                "teamID",
+                map = {
+                  teamID = ""
+                }
+              }
+            },
+            {
+              description = [[
+
+
+ A list of winning allyteams can be passed, if undecided (like when dropped from the host) it should be empty (no winner), in the case of a draw with multiple winners, all should be listed.
+]],
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Game End",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  allyTeamID2 = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  allyTeamIDn = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  },
+                  allyTeamID1 = {
+                    opt = true,
+                    optchain = true,
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "GameOver"
+              },
+              kind = "game end ",
+              name = "Spring.GameOver",
+              args = [=[([allyTeamID1[, allyTeamID2[, allyTeamIDn]]])]=],
+              summary = "Will declare game over.",
+              lineno = 824,
+              params = {
+                "allyTeamID1",
+                "allyTeamID2",
+                "allyTeamIDn",
+                map = {
+                  allyTeamID2 = "",
+                  allyTeamIDn = "",
+                  allyTeamID1 = ""
+                }
+              }
+            },
+            {
+              names_hierarchy = {
+                "resources"
+              },
+              type = "section",
+              description = "",
+              tags = {
+              },
+              modifiers = {
+              },
+              display_name = "Resources",
+              summary = "",
+              name = "resources",
+              file = <cycle>,
+              lineno = 865,
+              inferred = true
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Resources",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  strength = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetTidal"
+              },
+              kind = "resources ",
+              name = "Spring.SetTidal",
+              args = "(strength)",
+              summary = "Set tidal strength",
+              lineno = 866,
+              params = {
+                "strength",
+                map = {
+                  strength = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Resources",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  minStrength = {
+                    type = "number"
+                  },
+                  maxStrength = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetWind"
+              },
+              kind = "resources ",
+              name = "Spring.SetWind",
+              args = "(minStrength, maxStrength)",
+              summary = "Set wind strength",
+              lineno = 880,
+              params = {
+                "minStrength",
+                "maxStrength",
+                map = {
+                  minStrength = "",
+                  maxStrength = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Resources",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "number"
+                  },
+                  teamID = {
+                    type = "number"
+                  },
+                  type = {
+                    type = "string"
+                  },
+                  amount = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "AddTeamResource"
+              },
+              kind = "resources ",
+              name = "Spring.AddTeamResource",
+              args = "(teamID, type, amount)",
+              summary = "Adds metal or energy resources to the specified team.",
+              lineno = 894,
+              params = {
+                "teamID",
+                "type",
+                "amount",
+                map = {
+                  teamID = "",
+                  type = " \"metal\" | \"energy\"",
+                  amount = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "hadEnough",
+                    mods = {
+                      type = "?nil|bool"
+                    },
+                    type = "?nil|bool"
+                  },
+                  g = 0
+                }
+              },
+              section = "Resources",
+              inferred = true,
+              ret = {
+                "hadEnough"
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "?number|table"
+                  },
+                  teamID = {
+                    type = "number"
+                  },
+                  type = {
+                    type = "string"
+                  },
+                  amount = {
+                    type = "?number|table"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "?nil|bool"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "UseTeamResource"
+              },
+              kind = "resources ",
+              name = "Spring.UseTeamResource",
+              args = "(teamID, type, amount)",
+              summary = "Consumes metal and/or energy resources of the specified team.",
+              lineno = 931,
+              params = {
+                "teamID",
+                "type",
+                "amount",
+                map = {
+                  teamID = "",
+                  type = " \"metal\" | \"energy\"",
+                  amount = " `{ metal = number amount, energy = number amount }`"
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Resources",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "number"
+                  },
+                  teamID = {
+                    type = "number"
+                  },
+                  res = {
+                    type = "string"
+                  },
+                  amount = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetTeamResource"
+              },
+              kind = "resources ",
+              name = "Spring.SetTeamResource",
+              args = "(teamID, res, amount)",
+              summary = "",
+              lineno = 1015,
+              params = {
+                "teamID",
+                "res",
+                "amount",
+                map = {
+                  teamID = "",
+                  res = " \"m\" = metal \"e\" = energy \"ms\" = metal storage \"es\" = energy storage",
+                  amount = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Resources",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "number"
+                  },
+                  teamID = {
+                    type = "number"
+                  },
+                  type = {
+                    type = "string"
+                  },
+                  amount = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetTeamShareLevel"
+              },
+              kind = "resources ",
+              name = "Spring.SetTeamShareLevel",
+              args = "(teamID, type, amount)",
+              summary = "Changes the resource amount for a team beyond which resources aren't stored but transferred to other allied teams if possible.",
+              lineno = 1066,
+              params = {
+                "teamID",
+                "type",
+                "amount",
+                map = {
+                  teamID = "",
+                  type = " \"metal\" | \"energy\"",
+                  amount = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Resources",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "number"
+                  },
+                  teamID_recv = {
+                    type = "number"
+                  },
+                  type = {
+                    type = "string"
+                  },
+                  teamID_src = {
+                    type = "number"
+                  },
+                  amount = {
+                    type = "number"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "ShareTeamResource"
+              },
+              kind = "resources ",
+              name = "Spring.ShareTeamResource",
+              args = "(teamID_src, teamID_recv, type, amount)",
+              summary = "Transfers resources between two teams.",
+              lineno = 1104,
+              params = {
+                "teamID_src",
+                "teamID_recv",
+                "type",
+                "amount",
+                map = {
+                  teamID_recv = "",
+                  type = " \"metal\" | \"energy\"",
+                  teamID_src = "",
+                  amount = ""
+                }
+              }
+            },
+            <cycle>,
+            {
+              description = [[
+
+ If one condition is fulfilled all beneath it are too (e.g. if an unit is in LOS it can read params with `inradar=true` even if the param has `inlos=false`)
+ All GameRulesParam are public, TeamRulesParams can just be `private`,`allied` and/or `public`
+ You can read RulesParams from any Lua enviroments! With those losAccess policies you can limit their access.
+]],
+              parameter = "field",
+              section = "Rules Params",
+              inferred = true,
+              names_hierarchy = {
+                "losAccess"
+              },
+              type = "table",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                ["return"] = {
+                },
+                field = {
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  allied = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  inradar = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  inlos = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  public = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  private = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  }
+                },
+                param = {
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  allied = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  inradar = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  inlos = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  public = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  },
+                  private = {
+                    opt = true,
+                    optchain = true,
+                    type = "boolean"
+                  }
+                }
+              },
+              kind = "rules params ",
+              name = "losAccess",
+              args = [=[([private[, allied[, inlos[, inradar[, public]]]]])]=],
+              summary = "Parameters for los access",
+              lineno = 1185,
+              params = {
+                "private",
+                "allied",
+                "inlos",
+                "inradar",
+                "public",
+                map = {
+                  allied = " readable by ally + ingame allied",
+                  inradar = " readable if the unit is in AirLOS",
+                  inlos = " readable if the unit is in LOS",
+                  public = " readable by all",
+                  private = " only readable by the ally (default)"
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Rules Params",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "?number|string"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  },
+                  paramValue = {
+                    type = "?number|string"
+                  },
+                  paramName = {
+                    type = "string"
+                  },
+                  losAccess = {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetGameRulesParam"
+              },
+              kind = "rules params ",
+              name = "Spring.SetGameRulesParam",
+              args = "(paramName, paramValue[, losAccess])",
+              summary = "",
+              lineno = 1247,
+              params = {
+                "paramName",
+                "paramValue",
+                "losAccess",
+                map = {
+                  paramValue = " numeric paramValues in quotes will be converted to number.",
+                  paramName = "",
+                  losAccess = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Rules Params",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "?number|string"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  },
+                  teamID = {
+                    type = "number"
+                  },
+                  paramValue = {
+                    type = "?number|string"
+                  },
+                  paramName = {
+                    type = "string"
+                  },
+                  losAccess = {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetTeamRulesParam"
+              },
+              kind = "rules params ",
+              name = "Spring.SetTeamRulesParam",
+              args = "(teamID, paramName, paramValue[, losAccess])",
+              summary = "",
+              lineno = 1262,
+              params = {
+                "teamID",
+                "paramName",
+                "paramValue",
+                "losAccess",
+                map = {
+                  teamID = "",
+                  paramValue = " numeric paramValues in quotes will be converted to number.",
+                  paramName = "",
+                  losAccess = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Rules Params",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "?number|string"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  },
+                  playerID = {
+                    type = "number"
+                  },
+                  paramValue = {
+                    type = "?number|string"
+                  },
+                  paramName = {
+                    type = "string"
+                  },
+                  losAccess = {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetPlayerRulesParam"
+              },
+              kind = "rules params ",
+              name = "Spring.SetPlayerRulesParam",
+              args = "(playerID, paramName, paramValue[, losAccess])",
+              summary = "",
+              lineno = 1280,
+              params = {
+                "playerID",
+                "paramName",
+                "paramValue",
+                "losAccess",
+                map = {
+                  playerID = "",
+                  paramValue = " numeric paramValues in quotes will be converted to number.",
+                  paramName = "",
+                  losAccess = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Rules Params",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "?number|string"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  },
+                  unitID = {
+                    type = "number"
+                  },
+                  paramValue = {
+                    type = "?number|string"
+                  },
+                  paramName = {
+                    type = "string"
+                  },
+                  losAccess = {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  }
+                },
+                ["return"] = {
+                  {
+                    type = "nil"
+                  }
+                }
+              },
+              names_hierarchy = {
+                "Spring",
+                "SetUnitRulesParam"
+              },
+              kind = "rules params ",
+              name = "Spring.SetUnitRulesParam",
+              args = "(unitID, paramName, paramValue[, losAccess])",
+              summary = "",
+              lineno = 1304,
+              params = {
+                "unitID",
+                "paramName",
+                "paramValue",
+                "losAccess",
+                map = {
+                  unitID = "",
+                  paramValue = " numeric paramValues in quotes will be converted to number.",
+                  paramName = "",
+                  losAccess = ""
+                }
+              }
+            },
+            {
+              description = "",
+              parameter = "param",
+              retgroups = {
+                {
+                  {
+                    text = "",
+                    mods = {
+                      type = "nil"
+                    },
+                    type = "nil"
+                  },
+                  g = 0
+                }
+              },
+              section = "Rules Params",
+              inferred = true,
+              ret = {
+                ""
+              },
+              type = "function",
+              tags = {
+              },
+              subparams = {
+              },
+              modifiers = {
+                param = {
+                  {
+                    type = "number"
+                  },
+                  {
+                    type = "string"
+                  },
+                  {
+                    type = "?number|string"
+                  },
+                  {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  },
+                  paramValue = {
+                    type = "?number|string"
+                  },
+                  losAccess = {
+                    opt = true,
+                    optchain = true,
+                    type = "losAccess"
+                  },
+                  paramName = {
+                    type = "string"
+                  },
+                  featureID = {
+                    type = "number"

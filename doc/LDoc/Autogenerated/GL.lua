@@ -1,0 +1,287 @@
+---GL
+
+---
+---Fields
+---@param POINTS number
+---@param LINES number
+---@param LINE_LOOP number
+---@param LINE_STRIP number
+---@param TRIANGLES number
+---@param TRIANGLE_STRIP number
+---@param TRIANGLE_FAN number
+---@param QUADS number
+---@param QUAD_STRIP number
+---@param POLYGON number
+---@param PATCHES number
+
+---
+---Fields
+---@param ZERO number
+---@param ONE number
+---@param SRC_COLOR number
+---@param ONE_MINUS_SRC_COLOR number
+---@param SRC_ALPHA number
+---@param ONE_MINUS_SRC_ALPHA number
+---@param DST_ALPHA number
+---@param ONE_MINUS_DST_ALPHA number
+
+---
+---Fields
+---@param ZERO number
+---@param ONE number
+---@param SRC_COLOR number
+---@param ONE_MINUS_SRC_COLOR number
+---@param SRC_ALPHA number
+---@param ONE_MINUS_SRC_ALPHA number
+---@param DST_ALPHA number
+---@param ONE_MINUS_DST_ALPHA number
+---@param DST_COLOR number
+---@param ONE_MINUS_DST_COLOR number
+---@param SRC_ALPHA_SATURATE number
+
+---
+---Fields
+---@param NEVER number
+---@param LESS number
+---@param EQUAL number
+---@param LEQUAL number
+---@param GREATER number
+---@param NOTEQUAL number
+---@param GEQUAL number
+---@param ALWAYS number
+
+---
+---Fields
+---@param CLEAR number
+---@param AND number
+---@param AND_REVERSE number
+---@param COPY number
+---@param AND_INVERTED number
+---@param NOOP number
+---@param XOR number
+---@param OR number
+---@param NOR number
+---@param EQUIV number
+---@param INVERT number
+---@param OR_REVERSE number
+---@param COPY_INVERTED number
+---@param OR_INVERTED number
+---@param NAND number
+---@param SET number
+
+---
+---Fields
+---@param BACK number
+---@param FRONT number
+---@param FRONT_AND_BACK number
+
+---
+---Fields
+---@param POINT number
+---@param LINE number
+---@param FILL number
+
+---
+---Fields
+---@param DEPTH_BUFFER_BIT number
+---@param ACCUM_BUFFER_BIT number
+---@param STENCIL_BUFFER_BIT number
+---@param COLOR_BUFFER_BIT number
+
+---
+---Fields
+---@param FLAT number
+---@param SMOOTH number
+
+---
+---Fields
+---@param MODELVIEW number
+---@param PROJECTION number
+---@param TEXTURE number
+
+---
+---Fields
+---@param NEAREST number
+---@param LINEAR number
+---@param NEAREST_MIPMAP_NEAREST number
+---@param LINEAR_MIPMAP_NEAREST number
+---@param NEAREST_MIPMAP_LINEAR number
+---@param LINEAR_MIPMAP_LINEAR number
+
+---
+---Fields
+---@param REPEAT number
+---@param MIRRORED_REPEAT number
+---@param CLAMP number
+---@param CLAMP_TO_EDGE number
+---@param CLAMP_TO_BORDER number
+
+---
+---Fields
+---@param TEXTURE_ENV number
+---@param TEXTURE_ENV_MODE number
+---@param TEXTURE_ENV_COLOR number
+---@param MODULATE number
+---@param DECAL number
+---@param BLEND number
+---@param REPLACE number
+---@param GL_TEXTURE_FILTER_CONTROL
+---@param GL_TEXTURE_LOD_BIAS
+
+---
+---Fields
+---@param TEXTURE_GEN_MODE number
+---@param EYE_PLANE number
+---@param OBJECT_PLANE number
+---@param EYE_LINEAR number
+---@param OBJECT_LINEAR number
+---@param SPHERE_MAP number
+---@param NORMAL_MAP number
+---@param REFLECTION_MAP number
+---@param S number
+---@param T number
+---@param R number
+---@param Q number
+
+---
+---Fields
+---@param CURRENT_BIT number
+---@param POINT_BIT number
+---@param LINE_BIT number
+---@param POLYGON_BIT number
+---@param POLYGON_STIPPLE_BIT number
+---@param PIXEL_MODE_BIT number
+---@param LIGHTING_BIT number
+---@param FOG_BIT number
+---@param DEPTH_BUFFER_BIT number
+---@param ACCUM_BUFFER_BIT number
+---@param STENCIL_BUFFER_BIT number
+---@param VIEWPORT_BIT number
+---@param TRANSFORM_BIT number
+---@param ENABLE_BIT number
+---@param COLOR_BUFFER_BIT number
+---@param HINT_BIT number
+---@param EVAL_BIT number
+---@param LIST_BIT number
+---@param TEXTURE_BIT number
+---@param SCISSOR_BIT number
+---@param ALL_ATTRIB_BITS number
+
+---
+---Fields
+---@param FOG_HINT number
+---@param LINE_SMOOTH_HINT number
+---@param POINT_SMOOTH_HINT number
+---@param POLYGON_SMOOTH_HINT number
+---@param PERSPECTIVE_CORRECTION_HINT number
+
+---
+---Fields
+---@param DONT_CARE number
+---@param FASTEST number
+---@param NICEST number
+
+---
+---Fields
+---@param AMBIENT number
+---@param DIFFUSE number
+---@param SPECULAR number
+---@param POSITION number
+---@param SPOT_DIRECTION number
+---@param SPOT_EXPONENT number
+---@param SPOT_CUTOFF number
+---@param CONSTANT_ATTENUATION number
+---@param LINEAR_ATTENUATION number
+---@param QUADRATIC_ATTENUATION number
+
+---
+---Fields
+---@param VERTEX_SHADER number
+---@param TESS_CONTROL_SHADER number
+---@param TESS_EVALUATION_SHADER number
+---@param GEOMETRY_SHADER number
+---@param FRAGMENT_SHADER number
+
+---
+---Fields
+---@param GEOMETRY_INPUT_TYPE number
+---@param GEOMETRY_OUTPUT_TYPE number
+---@param GEOMETRY_VERTICES_OUT number
+
+---
+---Fields
+---@param PATCH_VERTICES number
+---@param PATCH_DEFAULT_OUTER_LEVEL number
+---@param PATCH_DEFAULT_INNER_LEVEL number
+
+---
+---Fields
+---@param BYTE number
+---@param UNSIGNED_BYTE number
+---@param SHORT number
+---@param UNSIGNED_SHORT number
+---@param INT number
+---@param UNSIGNED_INT number
+---@param FLOAT number
+---@param FLOAT_VEC4 number
+---@param INT_VEC4 number
+---@param UNSIGNED_INT_VEC4 number
+---@param FLOAT_MAT4 number
+
+---
+---Fields
+---@param ELEMENT_ARRAY_BUFFER number
+---@param ARRAY_BUFFER number
+---@param UNIFORM_BUFFER number
+---@param SHADER_STORAGE_BUFFER number
+
+---
+---@param GL_COLOR_ATTACHMENT0_EXT
+---@param GL_COLOR_ATTACHMENT1_EXT
+---@param GL_COLOR_ATTACHMENT2_EXT
+---@param GL_COLOR_ATTACHMENT3_EXT
+---@param GL_COLOR_ATTACHMENT4_EXT
+---@param GL_COLOR_ATTACHMENT5_EXT
+---@param GL_COLOR_ATTACHMENT6_EXT
+---@param GL_COLOR_ATTACHMENT7_EXT
+---@param GL_COLOR_ATTACHMENT8_EXT
+---@param GL_COLOR_ATTACHMENT9_EXT
+---@param GL_COLOR_ATTACHMENT10_EXT
+---@param GL_COLOR_ATTACHMENT11_EXT
+---@param GL_COLOR_ATTACHMENT12_EXT
+---@param GL_COLOR_ATTACHMENT13_EXT
+---@param GL_COLOR_ATTACHMENT14_EXT
+---@param GL_COLOR_ATTACHMENT15_EXT
+---@param GL_DEPTH_ATTACHMENT_EXT
+---@param GL_STENCIL_ATTACHMENT_EXT
+
+---
+---@param GL_RGBA16F_ARB
+---@param GL_RGBA32F_ARB
+---@param GL_DEPTH_COMPONENT
+---@param GL_DEPTH_COMPONENT16
+---@param GL_DEPTH_COMPONENT24
+---@param GL_DEPTH_COMPONENT32
+
+---
+---@param GL_RGB
+---@param GL_RGBA
+---@param GL_DEPTH_COMPONENT
+---@param GL_STENCIL_INDEX
+
+---
+---@param GL_FRAMEBUFFER_EXT
+---@param GL_READ_FRAMEBUFFER_EXT
+---@param GL_DRAW_FRAMEBUFFER_EXT
+
+---
+---@param GL_FRAMEBUFFER_COMPLETE_EXT
+---@param GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT_EXT
+---@param GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT_EXT
+---@param GL_FRAMEBUFFER_INCOMPLETE_DUPLICATE_ATTACHMENT_EXT
+---@param GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS_EXT
+---@param GL_FRAMEBUFFER_INCOMPLETE_FORMATS_EXT
+---@param GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER_EXT
+---@param GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER_EXT
+---@param GL_FRAMEBUFFER_UNSUPPORTED_EXT
+---@param GL_FRAMEBUFFER_STATUS_ERROR_EXT

@@ -1,0 +1,3320 @@
+                summary = "",
+                lineno = 1503,
+                params = {
+                  "unitDefName",
+                  "x",
+                  "y",
+                  "z",
+                  "facing",
+                  "teamID",
+                  "build",
+                  "flattenGround",
+                  "unitID",
+                  "builderID",
+                  map = {
+                    flattenGround = " the unit flattens ground, if it normally does so",
+                    teamID = "",
+                    y = "",
+                    x = "",
+                    unitDefName = " or unitDefID",
+                    facing = " possible values for facing are: \"south\" | \"s\" | 0, \"east\" | \"e\" | 1, \"north\" | \"n\" | 2, \"west\" | \"w\" | 3",
+                    builderID = "",
+                    unitID = " requests specific unitID",
+                    z = "",
+                    build = " the unit is created in \"being built\" state with buildProgress = 0"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Handling",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                  see = {
+                    "Spring.CreateUnit"
+                  }
+                },
+                subparams = {
+                },
+                modifiers = {
+                  see = {
+                    {
+                    }
+                  },
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "false",
+                      optchain = "false",
+                      type = "boolean"
+                    },
+                    {
+                      opt = "false",
+                      optchain = "false",
+                      type = "boolean"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = "false",
+                      optchain = "false",
+                      type = "boolean"
+                    },
+                    attackerID = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    reclaimed = {
+                      opt = "false",
+                      optchain = "false",
+                      type = "boolean"
+                    },
+                    cleanupImmediately = {
+                      opt = "false",
+                      optchain = "false",
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    selfd = {
+                      opt = "false",
+                      optchain = "false",
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "DestroyUnit"
+                },
+                kind = "unit handling ",
+                name = "Spring.DestroyUnit",
+                args = [=[(unitID[, selfd=false[, reclaimed=false[, attackerID[, cleanupImmediately=false]]]])]=],
+                summary = "",
+                lineno = 1597,
+                params = {
+                  "unitID",
+                  "selfd",
+                  "reclaimed",
+                  "attackerID",
+                  "cleanupImmediately",
+                  map = {
+                    attackerID = "",
+                    reclaimed = " don't show any DeathSequences, don't leave a wreckage. This does not give back the resources to the team!",
+                    cleanupImmediately = " stronger version of reclaimed, removes the unit unconditionally and makes its ID available for immediate reuse (otherwise it takes a few frames)",
+                    unitID = "",
+                    selfd = " makes the unit act like it self-destructed."
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Handling",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "true",
+                      optchain = "true",
+                      type = "boolean"
+                    },
+                    newTeamID = {
+                      type = "number"
+                    },
+                    given = {
+                      opt = "true",
+                      optchain = "true",
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "TransferUnit"
+                },
+                kind = "unit handling ",
+                name = "Spring.TransferUnit",
+                args = "(unitID, newTeamID[, given=true])",
+                summary = "",
+                lineno = 1639,
+                params = {
+                  "unitID",
+                  "newTeamID",
+                  "given",
+                  map = {
+                    newTeamID = "",
+                    given = " if false, the unit is captured.",
+                    unitID = ""
+                  }
+                }
+              },
+              {
+                names_hierarchy = {
+                  "unitcontrol"
+                },
+                type = "section",
+                description = [[
+
+****************************************************************************]],
+                tags = {
+                },
+                modifiers = {
+                },
+                display_name = "Unit Control",
+                summary = "",
+                name = "unitcontrol",
+                file = <cycle>,
+                lineno = 1682,
+                inferred = true
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Control",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{[number]=number,...}"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    where = {
+                      type = "{[number]=number,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitCosts"
+                },
+                kind = "unit control ",
+                name = "Spring.SetUnitCosts",
+                args = "(unitID, where)",
+                summary = "",
+                lineno = 1683,
+                params = {
+                  "unitID",
+                  "where",
+                  map = {
+                    unitID = "",
+                    where = " keys and values are, respectively and in this order: buildTime=amount, metalCost=amount, energyCost=amount"
+                  }
+                }
+              },
+              {
+                names_hierarchy = {
+                  "unitresourcing"
+                },
+                type = "section",
+                description = "",
+                tags = {
+                },
+                modifiers = {
+                },
+                display_name = "Unit Resourcing",
+                summary = "",
+                name = "unitresourcing",
+                file = <cycle>,
+                lineno = 1786,
+                inferred = true
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "string"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    res = {
+                      type = "string"
+                    },
+                    amount = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitResourcing"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitResourcing",
+                args = "(unitID, res, amount)",
+                summary = "",
+                lineno = 1793,
+                params = {
+                  "unitID",
+                  "res",
+                  "amount",
+                  map = {
+                    unitID = "",
+                    res = "",
+                    amount = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "{[string]=number,...}"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    res = {
+                      type = "{[string]=number,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitResourcing"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitResourcing",
+                args = "(unitID, res)",
+                summary = "",
+                lineno = 1794,
+                params = {
+                  "unitID",
+                  "res",
+                  map = {
+                    unitID = "",
+                    res = " keys are: \"[u|c][u|m][m|e]\" unconditional | conditional, use | make, metal | energy. Values are amounts"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "string"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    tooltip = {
+                      type = "string"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitTooltip"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitTooltip",
+                args = "(unitID, tooltip)",
+                summary = "",
+                lineno = 1827,
+                params = {
+                  "unitID",
+                  "tooltip",
+                  map = {
+                    unitID = "",
+                    tooltip = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number|{[string]=number,...}"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    health = {
+                      type = "number|{[string]=number,...}"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitHealth"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitHealth",
+                args = "(unitID, health)",
+                summary = "",
+                lineno = 1851,
+                params = {
+                  "unitID",
+                  "health",
+                  map = {
+                    unitID = "",
+                    health = " where keys can be one of health|capture|paralyze|build and values are amounts"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    maxHealth = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitMaxHealth"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitMaxHealth",
+                args = "(unitID, maxHealth)",
+                summary = "",
+                lineno = 1906,
+                params = {
+                  "unitID",
+                  "maxHealth",
+                  map = {
+                    unitID = "",
+                    maxHealth = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    buildPercent = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    stockpile = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitStockpile"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitStockpile",
+                args = [=[(unitID[, stockpile[, buildPercent]])]=],
+                summary = "",
+                lineno = 1926,
+                params = {
+                  "unitID",
+                  "stockpile",
+                  "buildPercent",
+                  map = {
+                    unitID = "",
+                    buildPercent = "",
+                    stockpile = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    allowUseWeapons = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    forceUseWeapons = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitUseWeapons"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitUseWeapons",
+                args = [=[(unitID[, forceUseWeapons[, allowUseWeapons]])]=],
+                summary = "",
+                lineno = 2035,
+                params = {
+                  "unitID",
+                  "forceUseWeapons",
+                  "allowUseWeapons",
+                  map = {
+                    unitID = "",
+                    allowUseWeapons = "",
+                    forceUseWeapons = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "field",
+                section = "Unit Resourcing",
+                inferred = true,
+                names_hierarchy = {
+                  "states"
+                },
+                type = "table",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  ["return"] = {
+                  },
+                  field = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    burst = {
+                      type = "number"
+                    },
+                    accuracy = {
+                      type = "number"
+                    },
+                    reloadFrame = {
+                      type = "number"
+                    },
+                    range = {
+                      type = "number"
+                    },
+                    aimReady = {
+                      type = "number"
+                    },
+                    nextSalvo = {
+                      type = "number"
+                    },
+                    projectileSpeed = {
+                      type = "number"
+                    },
+                    burstRate = {
+                      type = "number"
+                    },
+                    salvoLeft = {
+                      type = "number"
+                    },
+                    reloadTime = {
+                      type = "number"
+                    },
+                    reloadState = {
+                      type = "number"
+                    },
+                    sprayAngle = {
+                      type = "number"
+                    },
+                    projectiles = {
+                      type = "number"
+                    }
+                  },
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    burst = {
+                      type = "number"
+                    },
+                    accuracy = {
+                      type = "number"
+                    },
+                    reloadFrame = {
+                      type = "number"
+                    },
+                    range = {
+                      type = "number"
+                    },
+                    aimReady = {
+                      type = "number"
+                    },
+                    nextSalvo = {
+                      type = "number"
+                    },
+                    projectileSpeed = {
+                      type = "number"
+                    },
+                    burstRate = {
+                      type = "number"
+                    },
+                    salvoLeft = {
+                      type = "number"
+                    },
+                    reloadTime = {
+                      type = "number"
+                    },
+                    reloadState = {
+                      type = "number"
+                    },
+                    sprayAngle = {
+                      type = "number"
+                    },
+                    projectiles = {
+                      type = "number"
+                    }
+                  }
+                },
+                kind = "unit resourcing ",
+                name = "states",
+                args = "(reloadState, reloadFrame, reloadTime, accuracy, sprayAngle, range, projectileSpeed, burst, burstRate, projectiles, salvoLeft, nextSalvo, aimReady)",
+                summary = "Parameter for weapon states",
+                lineno = 2071,
+                params = {
+                  "reloadState",
+                  "reloadFrame",
+                  "reloadTime",
+                  "accuracy",
+                  "sprayAngle",
+                  "range",
+                  "projectileSpeed",
+                  "burst",
+                  "burstRate",
+                  "projectiles",
+                  "salvoLeft",
+                  "nextSalvo",
+                  "aimReady",
+                  map = {
+                    burst = "",
+                    accuracy = "",
+                    reloadFrame = " synonym for reloadState!",
+                    range = " if you change the range of a weapon with dynamic damage make sure you use `SetUnitWeaponDamages` to change dynDamageRange as well.",
+                    aimReady = " (<>0.0f := true)",
+                    nextSalvo = "",
+                    projectileSpeed = "",
+                    burstRate = "",
+                    salvoLeft = "",
+                    reloadTime = "",
+                    reloadState = "",
+                    sprayAngle = "",
+                    projectiles = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "states"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponNum = {
+                      type = "number"
+                    },
+                    states = {
+                      type = "states"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitWeaponState"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitWeaponState",
+                args = "(unitID, weaponNum, states)",
+                summary = "",
+                lineno = 2080,
+                params = {
+                  "unitID",
+                  "weaponNum",
+                  "states",
+                  map = {
+                    unitID = "",
+                    weaponNum = "",
+                    states = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "string"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponNum = {
+                      type = "number"
+                    },
+                    key = {
+                      type = "string"
+                    },
+                    value = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitWeaponState"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitWeaponState",
+                args = "(unitID, weaponNum, key, value)",
+                summary = "",
+                lineno = 2081,
+                params = {
+                  "unitID",
+                  "weaponNum",
+                  "key",
+                  "value",
+                  map = {
+                    unitID = "",
+                    weaponNum = "",
+                    key = "",
+                    value = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "field",
+                section = "Unit Resourcing",
+                inferred = true,
+                names_hierarchy = {
+                  "damages"
+                },
+                type = "table",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  ["return"] = {
+                  },
+                  field = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    armorType = {
+                      type = "number"
+                    },
+                    dynDamageMin = {
+                      type = "number"
+                    },
+                    dynDamageExp = {
+                      type = "number"
+                    },
+                    impulseFactor = {
+                      type = "number"
+                    },
+                    craterBoost = {
+                      type = "number"
+                    },
+                    edgeEffectiveness = {
+                      type = "number"
+                    },
+                    dynDamageInverted = {
+                      type = "number"
+                    },
+                    paralyzeDamageTime = {
+                      type = "number"
+                    },
+                    craterMult = {
+                      type = "number"
+                    },
+                    explosionSpeed = {
+                      type = "number"
+                    },
+                    damageAreaOfEffect = {
+                      type = "number"
+                    },
+                    impulseBoost = {
+                      type = "number"
+                    },
+                    dynDamageRange = {
+                      type = "number"
+                    },
+                    craterAreaOfEffect = {
+                      type = "number"
+                    }
+                  },
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    armorType = {
+                      type = "number"
+                    },
+                    dynDamageMin = {
+                      type = "number"
+                    },
+                    dynDamageExp = {
+                      type = "number"
+                    },
+                    impulseFactor = {
+                      type = "number"
+                    },
+                    craterBoost = {
+                      type = "number"
+                    },
+                    edgeEffectiveness = {
+                      type = "number"
+                    },
+                    dynDamageInverted = {
+                      type = "number"
+                    },
+                    paralyzeDamageTime = {
+                      type = "number"
+                    },
+                    craterMult = {
+                      type = "number"
+                    },
+                    explosionSpeed = {
+                      type = "number"
+                    },
+                    damageAreaOfEffect = {
+                      type = "number"
+                    },
+                    impulseBoost = {
+                      type = "number"
+                    },
+                    dynDamageRange = {
+                      type = "number"
+                    },
+                    craterAreaOfEffect = {
+                      type = "number"
+                    }
+                  }
+                },
+                kind = "unit resourcing ",
+                name = "damages",
+                args = "(paralyzeDamageTime, impulseFactor, impulseBoost, craterMult, craterBoost, dynDamageExp, dynDamageMin, dynDamageRange, dynDamageInverted, craterAreaOfEffect, damageAreaOfEffect, edgeEffectiveness, explosionSpeed, armorType)",
+                summary = "Parameters for damage",
+                lineno = 2207,
+                params = {
+                  "paralyzeDamageTime",
+                  "impulseFactor",
+                  "impulseBoost",
+                  "craterMult",
+                  "craterBoost",
+                  "dynDamageExp",
+                  "dynDamageMin",
+                  "dynDamageRange",
+                  "dynDamageInverted",
+                  "craterAreaOfEffect",
+                  "damageAreaOfEffect",
+                  "edgeEffectiveness",
+                  "explosionSpeed",
+                  "armorType",
+                  map = {
+                    armorType = "",
+                    dynDamageMin = "",
+                    dynDamageExp = "",
+                    impulseFactor = "",
+                    craterBoost = "",
+                    edgeEffectiveness = "",
+                    dynDamageInverted = " (<>0.0f := true)",
+                    paralyzeDamageTime = "",
+                    craterMult = "",
+                    explosionSpeed = "",
+                    damageAreaOfEffect = "",
+                    impulseBoost = "",
+                    dynDamageRange = "",
+                    craterAreaOfEffect = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "?number|string"
+                    },
+                    {
+                      type = "damages"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponNum = {
+                      type = "?number|string"
+                    },
+                    damages = {
+                      type = "damages"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitWeaponDamages"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitWeaponDamages",
+                args = "(unitID, weaponNum, damages)",
+                summary = "",
+                lineno = 2215,
+                params = {
+                  "unitID",
+                  "weaponNum",
+                  "damages",
+                  map = {
+                    unitID = "",
+                    weaponNum = " \"selfDestruct\" | \"explode\"",
+                    damages = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "?number|string"
+                    },
+                    {
+                      type = "string"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponNum = {
+                      type = "?number|string"
+                    },
+                    key = {
+                      type = "string"
+                    },
+                    value = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitWeaponDamages"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitWeaponDamages",
+                args = "(unitID, weaponNum, key, value)",
+                summary = "",
+                lineno = 2216,
+                params = {
+                  "unitID",
+                  "weaponNum",
+                  "key",
+                  "value",
+                  map = {
+                    unitID = "",
+                    weaponNum = " \"selfDestruct\" | \"explode\"",
+                    key = "",
+                    value = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    maxRange = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitMaxRange"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitMaxRange",
+                args = "(unitID, maxRange)",
+                summary = "",
+                lineno = 2267,
+                params = {
+                  "unitID",
+                  "maxRange",
+                  map = {
+                    unitID = "",
+                    maxRange = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                  see = {
+                    "Spring.AddUnitExperience",
+                    "Spring.GetUnitExperience"
+                  }
+                },
+                subparams = {
+                },
+                modifiers = {
+                  see = {
+                    {
+                    },
+                    {
+                    }
+                  },
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    experience = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitExperience"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitExperience",
+                args = "(unitID, experience)",
+                summary = "",
+                lineno = 2287,
+                params = {
+                  "unitID",
+                  "experience",
+                  map = {
+                    unitID = "",
+                    experience = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                  see = {
+                    "Spring.SetUnitExperience",
+                    "Spring.GetUnitExperience"
+                  }
+                },
+                subparams = {
+                },
+                modifiers = {
+                  see = {
+                    {
+                    },
+                    {
+                    }
+                  },
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    deltaExperience = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "AddUnitExperience"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.AddUnitExperience",
+                args = "(unitID, deltaExperience)",
+                summary = "",
+                lineno = 2306,
+                params = {
+                  "unitID",
+                  "deltaExperience",
+                  map = {
+                    unitID = "",
+                    deltaExperience = " Can be negative to subtract, but the unit will never have negative total afterwards"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit Resourcing",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "boolean"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    armored = {
+                      opt = true,
+                      optchain = true,
+                      type = "boolean"
+                    },
+                    armorMultiple = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitArmored"
+                },
+                kind = "unit resourcing ",
+                name = "Spring.SetUnitArmored",
+                args = [=[(unitID[, armored[, armorMultiple]])]=],
+                summary = "",
+                lineno = 2326,
+                params = {
+                  "unitID",
+                  "armored",
+                  "armorMultiple",
+                  map = {
+                    unitID = "",
+                    armored = "",
+                    armorMultiple = ""
+                  }
+                }
+              },
+              {
+                names_hierarchy = {
+                  "unitlos"
+                },
+                type = "section",
+                description = [[
+
+****************************************************************************]],
+                tags = {
+                },
+                modifiers = {
+                },
+                display_name = "Unit LOS",
+                summary = "",
+                name = "unitlos",
+                file = <cycle>,
+                lineno = 2352,
+                inferred = true
+              },
+              {
+                description = [[
+
+
+ The 3rd argument is either the bit-and combination of the following numbers:
+
+     LOS_INLOS = 1
+     LOS_INRADAR = 2
+     LOS_PREVLOS = 4
+     LOS_CONTRADAR = 8
+
+ or a table of the following form:
+
+     losTypes = {
+     [los = boolean,]
+     [radar = boolean,]
+     [prevLos = boolean,]
+     [contRadar = boolean]
+     }
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number|table"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    allyTeam = {
+                      type = "number"
+                    },
+                    losTypes = {
+                      type = "number|table"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitLosMask"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitLosMask",
+                args = "(unitID, allyTeam, losTypes)",
+                summary = "",
+                lineno = 2417,
+                params = {
+                  "unitID",
+                  "allyTeam",
+                  "losTypes",
+                  map = {
+                    unitID = "",
+                    allyTeam = "",
+                    losTypes = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number|table"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    allyTeam = {
+                      type = "number"
+                    },
+                    los = {
+                      type = "number|table"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitLosState"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitLosState",
+                args = "(unitID, allyTeam, los)",
+                summary = "",
+                lineno = 2448,
+                params = {
+                  "unitID",
+                  "allyTeam",
+                  "los",
+                  map = {
+                    unitID = "",
+                    allyTeam = "",
+                    los = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ If the 2nd argument is a number, the value works like this:
+ 1:=normal cloak
+ 2:=for free cloak (cost no E)
+ 3:=for free + no decloaking (except the unit is stunned)
+ 4:=ultimative cloak (no ecost, no decloaking, no stunned decloak)
+
+ The decloak distance is only changed:
+ - if the 3th argument is a number or a boolean.
+ - if the boolean is false it takes the default decloak distance for that unitdef,
+ - if the boolean is true it takes the absolute value of it.
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "bool|number"
+                    },
+                    {
+                      type = "bool|number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    cloakArg = {
+                      type = "bool|number"
+                    },
+                    cloak = {
+                      type = "bool|number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitCloak"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitCloak",
+                args = "(unitID, cloak, cloakArg)",
+                summary = "",
+                lineno = 2488,
+                params = {
+                  "unitID",
+                  "cloak",
+                  "cloakArg",
+                  map = {
+                    unitID = "",
+                    cloakArg = "",
+                    cloak = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    stealth = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitStealth"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitStealth",
+                args = "(unitID, stealth)",
+                summary = "",
+                lineno = 2524,
+                params = {
+                  "unitID",
+                  "stealth",
+                  map = {
+                    unitID = "",
+                    stealth = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    sonarStealth = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitSonarStealth"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitSonarStealth",
+                args = "(unitID, sonarStealth)",
+                summary = "",
+                lineno = 2542,
+                params = {
+                  "unitID",
+                  "sonarStealth",
+                  map = {
+                    unitID = "",
+                    sonarStealth = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    seismicSignature = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitSeismicSignature"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitSeismicSignature",
+                args = "(unitID, seismicSignature)",
+                summary = "",
+                lineno = 2559,
+                params = {
+                  "unitID",
+                  "seismicSignature",
+                  map = {
+                    unitID = "",
+                    seismicSignature = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    alwaysVisible = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitAlwaysVisible"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitAlwaysVisible",
+                args = "(unitID, alwaysVisible)",
+                summary = "",
+                lineno = 2575,
+                params = {
+                  "unitID",
+                  "alwaysVisible",
+                  map = {
+                    unitID = "",
+                    alwaysVisible = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    useAirLos = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitUseAirLos"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitUseAirLos",
+                args = "(unitID, useAirLos)",
+                summary = "",
+                lineno = 2588,
+                params = {
+                  "unitID",
+                  "useAirLos",
+                  map = {
+                    unitID = "",
+                    useAirLos = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    depth = {
+                      type = "number"
+                    },
+                    range = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitMetalExtraction"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitMetalExtraction",
+                args = "(unitID, depth[, range])",
+                summary = "",
+                lineno = 2601,
+                params = {
+                  "unitID",
+                  "depth",
+                  "range",
+                  map = {
+                    unitID = "",
+                    depth = " corresponds to metal extraction rate",
+                    range = " similar to \"extractsMetal\" in unitDefs."
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    metal = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitHarvestStorage"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitHarvestStorage",
+                args = "(unitID, metal)",
+                summary = "See also harvestStorage UnitDef tag.",
+                lineno = 2628,
+                params = {
+                  "unitID",
+                  "metal",
+                  map = {
+                    unitID = "",
+                    metal = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "string"
+                    },
+                    {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    paramName = {
+                      type = "string"
+                    },
+                    bool = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitBuildParams"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitBuildParams",
+                args = "(unitID, paramName, bool)",
+                summary = "",
+                lineno = 2650,
+                params = {
+                  "unitID",
+                  "paramName",
+                  "bool",
+                  map = {
+                    unitID = "",
+                    paramName = " one of `buildRange`|`buildDistance`|`buildRange3D`",
+                    bool = " value bool when `paramName` is `buildRange3D`, number otherwise"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    terraformSpeed = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    captureSpeed = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    buildSpeed = {
+                      type = "number"
+                    },
+                    repairSpeed = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    reclaimSpeed = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    builderID = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitBuildSpeed"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitBuildSpeed",
+                args = [=[(builderID, buildSpeed[, repairSpeed[, reclaimSpeed[, captureSpeed[, terraformSpeed]]]])]=],
+                summary = "",
+                lineno = 2686,
+                params = {
+                  "builderID",
+                  "buildSpeed",
+                  "repairSpeed",
+                  "reclaimSpeed",
+                  "captureSpeed",
+                  "terraformSpeed",
+                  map = {
+                    terraformSpeed = "",
+                    captureSpeed = "",
+                    buildSpeed = "",
+                    repairSpeed = "",
+                    reclaimSpeed = "",
+                    builderID = ""
+                  }
+                }
+              },
+              {
+                description = [[
+
+
+ This saves a lot of engine calls, by replacing: function script.QueryNanoPiece() return currentpiece end
+ Use it!
+]],
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "table"
+                    },
+                    pieces = {
+                      type = "table"
+                    },
+                    builderID = {
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitNanoPieces"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitNanoPieces",
+                args = "(builderID, pieces)",
+                summary = "",
+                lineno = 2739,
+                params = {
+                  "builderID",
+                  "pieces",
+                  map = {
+                    pieces = "",
+                    builderID = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    blockHeightChanges = {
+                      type = "boolean"
+                    },
+                    crushable = {
+                      type = "boolean"
+                    },
+                    blockEnemyPushing = {
+                      type = "boolean"
+                    },
+                    isblocking = {
+                      type = "boolean"
+                    },
+                    isProjectileCollidable = {
+                      type = "boolean"
+                    },
+                    isRaySegmentCollidable = {
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    isSolidObjectCollidable = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitBlocking"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitBlocking",
+                args = "(unitID, isblocking, isSolidObjectCollidable, isProjectileCollidable, isRaySegmentCollidable, crushable, blockEnemyPushing, blockHeightChanges)",
+                summary = "",
+                lineno = 2800,
+                params = {
+                  "unitID",
+                  "isblocking",
+                  "isSolidObjectCollidable",
+                  "isProjectileCollidable",
+                  "isRaySegmentCollidable",
+                  "crushable",
+                  "blockEnemyPushing",
+                  "blockHeightChanges",
+                  map = {
+                    blockHeightChanges = "",
+                    crushable = "",
+                    blockEnemyPushing = "",
+                    isblocking = "",
+                    isProjectileCollidable = "",
+                    isRaySegmentCollidable = "",
+                    unitID = "",
+                    isSolidObjectCollidable = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "success",
+                      mods = {
+                        type = "bool"
+                      },
+                      type = "bool"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  "success"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    crashing = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "bool"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitCrashing"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitCrashing",
+                args = "(unitID, crashing)",
+                summary = "",
+                lineno = 2812,
+                params = {
+                  "unitID",
+                  "crashing",
+                  map = {
+                    unitID = "",
+                    crashing = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = "-1",
+                      optchain = "-1",
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "boolean"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponID = {
+                      opt = "-1",
+                      optchain = "-1",
+                      type = "number"
+                    },
+                    enabled = {
+                      opt = true,
+                      optchain = true,
+                      type = "boolean"
+                    },
+                    power = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitShieldState"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitShieldState",
+                args = [=[(unitID[, weaponID=-1[, enabled[, power]]])]=],
+                summary = "",
+                lineno = 2849,
+                params = {
+                  "unitID",
+                  "weaponID",
+                  "enabled",
+                  "power",
+                  map = {
+                    unitID = "",
+                    weaponID = "",
+                    enabled = "",
+                    power = ""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    weaponID = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    rechargeTime = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitShieldRechargeDelay"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitShieldRechargeDelay",
+                args = [=[(unitID[, weaponID[, rechargeTime]])]=],
+                summary = "",
+                lineno = 2886,
+                params = {
+                  "unitID",
+                  "weaponID",
+                  "rechargeTime",
+                  map = {
+                    unitID = "",
+                    weaponID = " (optional if the unit only has one shield)",
+                    rechargeTime = " (in seconds; emulates a regular hit if nil)"
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "",
+                      mods = {
+                        type = "nil"
+                      },
+                      type = "nil"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  ""
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "string"
+                    },
+                    {
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    y = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    },
+                    type = {
+                      type = "string"
+                    },
+                    arg1 = {
+                      type = "number"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    z = {
+                      opt = true,
+                      optchain = true,
+                      type = "number"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitFlanking"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitFlanking",
+                args = [=[(unitID, type, arg1[, y[, z]])]=],
+                summary = "",
+                lineno = 2925,
+                params = {
+                  "unitID",
+                  "type",
+                  "arg1",
+                  "y",
+                  "z",
+                  map = {
+                    y = " only when type is \"dir\"",
+                    type = " \"dir\"|\"minDamage\"|\"maxDamage\"|\"moveFactor\"|\"mode\"",
+                    arg1 = " x|minDamage|maxDamage|moveFactor|mode",
+                    unitID = "",
+                    z = " only when type is \"dir\""
+                  }
+                }
+              },
+              {
+                description = "",
+                parameter = "param",
+                retgroups = {
+                  {
+                    {
+                      text = "setNeutral",
+                      mods = {
+                        type = "nil|bool"
+                      },
+                      type = "nil|bool"
+                    },
+                    g = 0
+                  }
+                },
+                section = "Unit LOS",
+                inferred = true,
+                ret = {
+                  "setNeutral"
+                },
+                type = "function",
+                tags = {
+                },
+                subparams = {
+                },
+                modifiers = {
+                  param = {
+                    {
+                      type = "number"
+                    },
+                    {
+                      type = "boolean"
+                    },
+                    unitID = {
+                      type = "number"
+                    },
+                    neutral = {
+                      type = "boolean"
+                    }
+                  },
+                  ["return"] = {
+                    {
+                      type = "nil|bool"
+                    }
+                  }
+                },
+                names_hierarchy = {
+                  "Spring",
+                  "SetUnitNeutral"
+                },
+                kind = "unit los ",
+                name = "Spring.SetUnitNeutral",
+                args = "(unitID, neutral)",
+                summary = "",
+                lineno = 2977,
+                params = {
+                  "unitID",
+                  "neutral",
+                  map = {

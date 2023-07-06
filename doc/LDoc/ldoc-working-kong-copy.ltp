@@ -117,7 +117,7 @@ $(ldoc.descript(item))
 **$(subnames)**
 
 >           end
->           for parm in iter(item.params) do
+>           for parm in iter(item.params) do -- parm in iter
 >             local sublist_prefix = ""
 >             local param, sublist = item:subparam(parm)
 >             if sublist then

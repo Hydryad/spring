@@ -329,11 +329,7 @@ format: using built-in markdown
               }
             },
             {
-              description = [[
-
-
- A list of winning allyteams can be passed, if undecided (like when dropped from the host) it should be empty (no winner), in the case of a draw with multiple winners, all should be listed.
-]],
+              description = [[ A list of winning allyteams can be passed, if undecided (like when dropped from the host) it should be empty (no winner), in the case of a draw with multiple winners, all should be listed. ]],
               parameter = "param",
               retgroups = {
                 {
